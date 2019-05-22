@@ -1,0 +1,314 @@
+@font-face {
+  font-family: "Asap-Regular";
+  src: url("https://cdn.houseviet.vn/fonts/Asap-Regular.eot?#iefix") format("embedded-opentype"), url("https://cdn.houseviet.vn/fonts/Asap-Regular.woff2") format("woff2"), url("https://cdn.houseviet.vn/fonts/Asap-Regular.woff") format("woff"), url("https://cdn.houseviet.vn/fonts/Asap-Regular.ttf") format("truetype"), url("https://cdn.houseviet.vn/fonts/Asap-Regular.svg#Asap-Regular") format("svg");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Asap-Medium";
+  src: url("https://cdn.houseviet.vn/fonts/Asap-Medium.eot?#iefix") format("embedded-opentype"), url("https://cdn.houseviet.vn/fonts/Asap-Medium.woff2") format("woff2"), url("https://cdn.houseviet.vn/fonts/Asap-Medium.woff") format("woff"), url("https://cdn.houseviet.vn/fonts/Asap-Medium.ttf") format("truetype"), url("https://cdn.houseviet.vn/fonts/Asap-Medium.svg#Asap-Medium") format("svg");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Asap-Bold";
+  src: url("https://cdn.houseviet.vn/fonts/Asap-Bold.eot?#iefix") format("embedded-opentype"), url("https://cdn.houseviet.vn/fonts/Asap-Bold.woff2") format("woff2"), url("https://cdn.houseviet.vn/fonts/Asap-Bold.woff") format("woff"), url("https://cdn.houseviet.vn/fonts/Asap-Bold.ttf") format("truetype"), url("https://cdn.houseviet.vn/fonts/Asap-Bold.svg#Asap-Bold") format("svg");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "SFUTradeGothicBoldCondensedTwenty";
+  src: url("https://cdn.houseviet.vn/fonts/SFUTradeGothic-BoldCondensedTwenty.eot?#iefix") format("embedded-opentype"), url("https://cdn.houseviet.vn/fonts/SFUTradeGothic-BoldCondensedTwenty.woff2") format("woff2"), url("https://cdn.houseviet.vn/fonts/SFUTradeGothic-BoldCondensedTwenty.woff") format("woff"), url("https://cdn.houseviet.vn/fonts/SFUTradeGothic-BoldCondensedTwenty.ttf") format("truetype"), url("https://cdn.houseviet.vn/fonts/SFUTradeGothic-BoldCondensedTwenty.svg#SFUTradeGothicBoldCondensedTwenty") format("svg");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "gbnd";
+  src: url("https://cdn.houseviet.vn/fonts/gbnd.eot?#iefix") format("embedded-opentype"), url("https://cdn.houseviet.vn/fonts/gbnd.woff2") format("woff2"), url("https://cdn.houseviet.vn/fonts/gbnd.woff") format("woff"), url("https://cdn.houseviet.vn/fonts/gbnd.ttf") format("truetype"), url("https://cdn.houseviet.vn/fonts/gbnd.svg#gbnd") format("svg");
+  font-style: normal;
+  font-weight: normal;
+}
+
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  margin: 0;
+  font-family: "Asap-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #3f3424;
+  text-align: left;
+  background-color: #f7f8f9;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.header {
+  font-family: "Asap-Medium", sans-serif;
+  font-size: 13px;
+  a {
+    width: 100%;
+    .icon-user {
+      font-size: 36px;
+      color: #777;
+    }
+  }
+
+}
+
+.header-left {
+  width: 36px;
+}
+
+.header-right {
+  width: 36px;
+}
+
+.header-middle {
+  flex-grow: 2;
+  text-align: center;
+}
+
+.nav-icon {
+  width: 100%;
+  height: 36px;
+  cursor: pointer;
+}
+
+.nav-icon.open {
+  display: none;
+}
+
+.icon-logo {
+  max-width: 165px;
+}
+
+.icon-profile {
+  max-width: 30px;
+}
+
+.nav-icon span {
+  display: block;
+  margin-bottom: 9px;
+  height: 4px;
+  width: 100%;
+  background: #777;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+
+header {
+  position: relative;
+}
+
+header.open {
+  .icon-cancel {
+    display: block;
+  }
+}
+
+.nav-mobile {
+  position: absolute;
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s
+}
+
+.mobile-content {
+  width: 450px;
+  @media screen and (max-width: 600px) {
+    width: 80%;
+  }
+}
+
+.nav-mobile.open {
+  max-width: 600px;
+  z-index: 2;
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  z-index: 99;
+  @media screen and (max-width: 600px) {
+    width: 100%;
+  }
+
+  .icon-cancel {
+    width: 55px;
+    height: 55px;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+    margin: 12px 25px;
+    @media screen and (max-width: 600px) {
+      width: 4%;
+    }
+  }
+}
+
+.mobile-profile {
+  font-family: "Asap-Bold", sans-serif;
+  width: 100%;
+  flex-grow: 1;
+  background-color: #cfa267;
+  color: white;
+  padding: 20px;
+  .icon-user {
+    font-size: 46px;
+  }
+}
+
+.over-lay.open {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  opacity: .5;
+}
+
+.mobile-logo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  background-color: white;
+  padding: 20px;
+
+  a:nth-child(1) {
+    width: 165px;
+    @media screen and (max-width: 450px) {
+      width: 65%;
+    }
+  }
+  a:nth-child(2) {
+    width: 110px;
+    padding: 13px;
+    background-color: #ef5350;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+
+    @media screen and (max-width: 450px) {
+      width: 35%;
+    }
+  }
+}
+
+.mobile-menu {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f7f8f9;
+  font-family: "Asap-Bold", sans-serif;
+  ul {
+    li {
+      z-index: 1;
+      border-left: 6px solid #f7f8f9;
+      padding: 20px;
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      color: #938f89;
+      a {
+        flex-grow: 1;
+        width: calc(100% - 17px);
+      }
+      i {
+        width: 17px;
+        cursor: pointer;
+      }
+      .ic-arrow {
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 5px 5px 0 5px;
+        border-color: #a2a09e transparent transparent transparent;
+        margin-top: 8px;
+      }
+      &.has-sub {
+        ul {
+          color: #a05b00;
+          max-height: 0;
+          transition: max-height 0.5s ease-out;
+          overflow: hidden;
+        }
+      }
+    }
+  }
+}
+
+
+.nav-mobile.open .mobile-menu > ul {
+  width: 100%;
+}
+
+.nav-mobile.open .mobile-menu > ul li.open > ul {
+  width: 100%;
+}
+
+.mobile-menu ul li.active {
+  border-left: 6px solid #ef5350;
+  color: #ef5350;
+}
+
+.mobile-menu ul li.open {
+  &.has-sub {
+    ul {
+      max-height: 5000px;
+      transition: max-height 0.5s ease-in;
+    }
+  }
+
+  .ic-arrow {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 5px 5px 5px;
+    border-color: transparent transparent #a05b00 transparent;
+    margin-top: 8px;
+  }
+}
+
+.mobile-contact {
+  padding: 30px;
+  text-align: center;
+  background-color: white;
+  p {
+    i {
+      vertical-align: middle;
+    }
+  }
+}
+
+
