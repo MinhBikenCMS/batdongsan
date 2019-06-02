@@ -35,6 +35,9 @@ a {
 input {
   outline: none; }
 
+button {
+  border: none; }
+
 html {
   font-size: 100%; }
   @media screen and (max-width: 640px) {
@@ -155,6 +158,9 @@ h3 {
 
 .backGroundYellow {
   background-color: #cfa267 !important; }
+
+.backGroundRed {
+  background-color: #ef5350; }
 
 .padding18 {
   padding: 1.125rem; }
@@ -289,6 +295,9 @@ h3 {
 
 .width70per {
   width: 70%; }
+
+.width100per {
+  width: 100%; }
 
 .heightHome {
   height: 35.25rem; }
