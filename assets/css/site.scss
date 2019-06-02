@@ -1,89 +1,10 @@
 @import 'modules/reset';
+@import 'modules/common';
 @import 'modules/header';
 @import 'modules/slide/swiper';
 @import 'modules/homepage';
+@import 'modules/homenew';
+@import "modules/videocategory";
+@import "modules/homebuy";
 
-h1, h2, h3, h4, h5, h6 {
-  margin-top: 0;
-  margin-bottom: 1rem;
-  line-height: 1.2em;
-  font-weight: normal;
-  font-family: "Asap-Medium",sans-serif;
-}
-.text-upper {
-  text-transform: uppercase;
-}
 
-.text-center {
-  text-align: center;
-}
-
-.fcenter {
-  align-items: center;
-  align-content: center;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -ms-flex-align: center;
-  height: 100%;
-}
-
-.fnowrap {
-  display: flex;
-  -ms-flex-flow: row nowrap;
-  flex-flow: row nowrap;
-  flex-wrap: nowrap;
-  -js-display: flex;
-  display: -ms-flexbox;
-}
-
-.fnAsapRegular {
-  font-family: "Asap-Regular",sans-serif;
-}
-
-.fnAsapBold {
-  font-family: "Asap-Bold",sans-serif;
-}
-
-.fnAsapMedium {
-  font-family: "Asap-Medium",sans-serif;
-}
-
-.fn19 {
-  font-size: 19px;
-}
-
-.fn16 {
-  font-size: 16px;
-}
-
-.fn14 {
-  font-size: 14px;
-}
-
-.fn13 {
-  font-size: 13px;
-}
-
-.colorNor {
-  color: #3f3424;
-}
-
-.colorRed {
-  color: #ef5350;
-}
-
-.colorYellow {
-  color: #cfa267;
-}
-
-.colorBlack {
-  color: #281c0c;
-}
-
-.colorBrown {
-  color: #3f3424;
-}
-
-.mgTop15 {
-  margin-top: 15px;
-}

@@ -33,26 +33,6 @@
   font-weight: normal;
 }
 
-html {
-  font-family: sans-serif;
-  line-height: 1.15;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -ms-overflow-style: scrollbar;
-  -webkit-tap-highlight-color: transparent;
-}
-
-body {
-  margin: 0;
-  font-family: "Asap-Regular", sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #3f3424;
-  text-align: left;
-  background-color: #f7f8f9;
-}
-
 .header {
   display: flex;
   flex-wrap: wrap;
@@ -214,7 +194,7 @@ header.open {
   }
   a:nth-child(2) {
     width: 110px;
-    padding: 13px;
+    padding: 13px 0;
     background-color: #ef5350;
     border-radius: 5px;
     color: white;

@@ -1,0 +1,449 @@
+html {
+  font-size: 100%;
+  @media screen and ( max-width: 640px ) {
+    font-size: 62.5%;
+  }
+
+}
+
+body {
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 1.875rem;
+}
+
+h3 {
+  font-size: 1.1875rem;
+}
+
+.text-upper {
+  text-transform: uppercase;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.fcenter {
+  align-items: center;
+  align-content: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-align: center;
+  height: 100%;
+}
+
+.fnowrap {
+  display: flex;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  flex-wrap: nowrap;
+  -js-display: flex;
+  display: -ms-flexbox;
+}
+
+.fnAsapRegular {
+  font-family: "Asap-Regular",sans-serif;
+}
+
+.fnAsapBold {
+  font-family: "Asap-Bold",sans-serif;
+}
+
+.fnAsapMedium {
+  font-family: "Asap-Medium",sans-serif;
+}
+
+.fnGothic {
+  font-family: "SFUTradeGothicBoldCondensedTwenty", sans-serif;
+}
+
+.fn40 {
+  font-size: 2.5rem;
+}
+
+.fn30 {
+  font-size: 1.85rem;
+}
+
+.fn26 {
+  font-size: 1.625rem;
+}
+
+.fn24 {
+  font-size: 1.5rem;
+}
+
+.fn21 {
+  font-size: 1.3125rem;
+}
+
+.fn19 {
+  font-size: 1.185rem;
+}
+
+.fn16 {
+  font-size: 1rem;
+}
+
+.fn15 {
+  font-size: 0.9375rem;
+}
+
+.fn14 {
+  font-size: 0.875rem;
+}
+
+.fn13 {
+  font-size: 0.85rem;
+}
+
+.fn10 {
+  font-size: 0.625rem;
+}
+
+.lnHeight1rem {
+  line-height: 1rem;
+}
+
+.colorNor {
+  color: #3f3424;
+}
+
+.colorRed {
+  color: #ef5350;
+}
+
+.colorRed2 {
+  color: #f61c0d;
+}
+
+.colorYellow {
+  color: #cfa267;
+}
+
+.colorBlack {
+  color: #281c0c;
+}
+
+.colorBrown {
+  color: #3f3424;
+}
+
+.colorWhite {
+  color: white;
+}
+
+.backgroundBody {
+  background-color: #f7f8f9;
+}
+
+.backgroundWhite {
+  background-color: white;
+}
+
+.backGroundMore {
+  background-color: #e0d8ce;
+}
+
+.backGroundYellow {
+  background-color: #cfa267 !important;
+}
+
+.padding18 {
+  padding: 1.125rem;
+}
+
+.padding20 {
+  padding: 1.25rem;
+}
+
+.padding15 {
+  padding: 0.9375rem;
+}
+
+.padding10 {
+  padding: 0.625rem;
+}
+
+.padding0-10 {
+  padding: 0 0.625rem;
+}
+
+.padding10-30-30 {
+  padding: 0.625rem 1.875rem 1.875rem;
+}
+
+.padding20-30 {
+   padding: 1.25rem 1.875rem;
+}
+
+.padding20-30-10 {
+  padding: 1.25rem 1.875rem 0.625rem;
+}
+
+.padding20-30-0 {
+  padding: 1.25rem 1.875rem 0;
+}
+
+.padding30 {
+  padding: 1.875rem;
+}
+
+.padding0-30 {
+  padding: 0 1.875rem;
+}
+
+.padding30-15 {
+  padding: 1.875rem 0.9375rem;
+}
+
+.padding16-30 {
+  padding: 1rem 1.875rem;
+}
+
+.padding0-15 {
+  padding: 0 0.9375rem;
+}
+
+.padding20-15-30-20 {
+  padding: 1.25rem 0.9375rem 1.875rem 1.25rem;
+}
+
+.padding0-60 {
+  padding: 0 3.75rem;
+}
+
+.mgTop15 {
+  margin-top: 0.9375rem;
+}
+
+.mgTop30 {
+  margin-top: 1.875rem;
+}
+
+.mgTop100 {
+  margin-top: 6.25rem;
+}
+
+.mgRight {
+  margin-right: 2.0625rem;
+}
+
+.mgRight15 {
+  margin-right: 0.9375rem;
+}
+
+.margin15-15-10 {
+  margin: 0.9375rem 0.9375rem 0.625rem;
+}
+
+.margin15 {
+  margin: 0.9375rem;
+}
+
+.margin0-30 {
+  margin: 0 1.875rem;
+}
+
+.padding18-12 {
+  padding: 1.125rem 0.75rem;
+}
+
+.padding25-18-0-18 {
+  padding: 1.5625rem 1.125rem 0 1.125rem;
+}
+
+.padding20-46-30-15 {
+  padding: 1.25rem 2.875rem 1.875rem 0.9375rem;
+}
+
+.padding18-60-18-15 {
+  padding: 1.125rem 3.75rem 1.125rem 0.9375rem;
+}
+
+.padding18-30 {
+  padding: 1.125rem 0 1.875rem;
+}
+
+.padding15-30 {
+  padding: 0.9375rem 0 1.875rem;
+}
+
+.padding20-72 {
+  padding: 1.25rem 4.5rem;
+}
+
+.mgBottom30 {
+  margin-bottom: 1.875rem;
+}
+
+.verMiddle {
+  vertical-align: middle;
+}
+
+.borderColor {
+  border-top: 1px solid #cfa267;
+}
+
+.borderRadius10 {
+  border-radius: 1.625rem;
+}
+
+.borderDashed {
+  border: 1px dashed #cfa267;
+}
+
+.disInLineBlock {
+  display: inline-block;
+}
+
+.padding1530 {
+  padding: 0.9375rem 1.875rem;
+}
+
+.padding20230 {
+  padding: 1.25rem 0 1.875rem;
+}
+
+.padding30-50-30-20 {
+  padding: 1.875rem 3.125rem 1.875rem 1.25rem !important;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.itemsCenter {
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.width50per {
+  width: 50%;
+}
+
+.width70per {
+  width: 70%;
+}
+
+.heightHome {
+  height: 35.25rem;
+}
+
+.heightBuy {
+  height: 28.5rem;
+}
+
+.borderBottomVideo {
+  border-bottom: 5px solid #dedff3;
+}
+
+.pagination {
+  width: 100%;
+}
+
+.pagination ul li {
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #e0e0e0;
+  color: black;
+  font-size: 1.3125rem;
+  padding: 0.875rem 1rem;
+  cursor: pointer;
+  .icon {
+    font-size: 1rem;
+  }
+  &.active {
+    background-color: #cfa267;
+  }
+}
+
+.input-form {
+  width: 100%;
+  text-align: center;
+  input {
+    width: 80%;
+    display: inline-block;
+    outline: none;
+    border: none;
+    background-color: #f0f0f0;
+    color: #281c0c;
+    padding: 1.25rem;
+    font-size: 1rem;
+    font-family: "Asap-Regular", sans-serif;
+    margin: 0.3125rem 0;
+  }
+  .input-checkbox {
+    width: 80%;
+    display: inline-block;
+    padding: 1.25rem 1.25rem 1.25rem 0;
+    margin: 0.3125rem 0;
+    text-align: left;
+    input[type='checkbox'] {
+      width: auto;
+      margin-bottom: 0.625rem;
+    }
+  }
+  button {
+    width: 80%;
+    padding: 1.25rem 0;
+    margin: 0.3125rem 0;
+    background-color: #cfa267;
+    cursor: pointer;
+  }
+}
+
+.button-facebook, .button-google {
+  display: block;
+}
+
+.login-facebook, .login-google {
+  background-color: #4b76bd;
+  cursor: pointer;
+  border-radius: 0.3125rem;
+  padding: 1.25rem 1.25rem;
+}
+
+.login-google  {
+  background-color: #ef5350;
+}
+
+.imgVerify {
+  width: 5.625rem;
+  height: 2.1875rem;
+}
+.floatRight {
+  float: right;
+}
+
+.floatLeft {
+  float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

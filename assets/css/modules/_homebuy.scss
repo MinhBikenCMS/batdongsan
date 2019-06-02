@@ -1,0 +1,56 @@
+.search-container-buy {
+  max-width: 70%;
+  left: 10%;
+  top: 35.08%;
+  transform: none;
+}
+
+.search-price {
+  padding: 0.9375rem 0.75rem 0.9375rem 1.5rem;
+  display: inline-block;
+  position: absolute;
+  right: -2.25rem;
+  bottom: 1.25rem;
+  z-index: 1;
+}
+
+.swiper-button-next-buy, .swiper-button-prev-buy {
+  left: 0;
+  top: 50%;
+}
+
+.swiper-button-next-buy {
+  left: inherit;
+  right: 0;
+}
+
+.select-buy {
+  /*for firefox*/
+  -moz-appearance: none;
+  /*for chrome*/
+  -webkit-appearance:none;
+  appearance: none;
+  &::-ms-expand {
+    display: none;
+  }
+  padding: 1.25rem 6.75rem 1.25rem 1rem;
+  border: 1px solid #ccc;
+  background: url('../images/homepage/icon/arrow_down.png') no-repeat 93% white;
+}
+
+.filter {
+  max-height: 0;
+  transition: max-height 1s ease-out;
+  overflow:hidden;
+  &.open {
+    max-height: 5000px;
+    transition: max-height 1s ease-in;
+  }
+}
+
+
+
+
+
+
+
