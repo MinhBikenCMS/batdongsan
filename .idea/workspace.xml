@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79887c8c-079a-4013-9876-411092bb8223" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/modules/_homeproject.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/duan.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/profile.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/modules/_common.scss" afterPath="$PROJECT_DIR$/assets/css/modules/_common.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/modules/_homenew.scss" afterPath="$PROJECT_DIR$/assets/css/modules/_homenew.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/modules/_homepage.scss" afterPath="$PROJECT_DIR$/assets/css/modules/_homepage.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/site.css" afterPath="$PROJECT_DIR$/assets/css/site.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/site.css.map" afterPath="$PROJECT_DIR$/assets/css/site.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/site.scss" afterPath="$PROJECT_DIR$/assets/css/site.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login.html" afterPath="$PROJECT_DIR$/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/naptien.html" afterPath="$PROJECT_DIR$/naptien.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/registry.html" afterPath="$PROJECT_DIR$/registry.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/duan.html" afterPath="$PROJECT_DIR$/duan.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -100,8 +87,8 @@
       <file leaf-file-name="duan.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/duan.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="280" column="6" lean-forward="false" selection-start-line="280" selection-start-column="6" selection-end-line="280" selection-end-column="6" />
+            <state relative-caret-position="309">
+              <caret line="238" column="80" lean-forward="false" selection-start-line="238" selection-start-column="80" selection-end-line="238" selection-end-column="80" />
               <folding>
                 <element signature="e#3238#3244#0" expanded="true" />
                 <element signature="n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -400,12 +387,12 @@
       <workItem from="1558061811405" duration="68060000" />
       <workItem from="1558499290195" duration="12190000" />
       <workItem from="1559008561118" duration="67991000" />
-      <workItem from="1559502732162" duration="17588000" />
+      <workItem from="1559502732162" duration="17827000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165829000" />
+    <option name="totallyTimeSpent" value="166068000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1023" extended-state="6" />
@@ -850,8 +837,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/duan.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="280" column="6" lean-forward="false" selection-start-line="280" selection-start-column="6" selection-end-line="280" selection-end-column="6" />
+        <state relative-caret-position="309">
+          <caret line="238" column="80" lean-forward="false" selection-start-line="238" selection-start-column="80" selection-end-line="238" selection-end-column="80" />
           <folding>
             <element signature="e#3238#3244#0" expanded="true" />
             <element signature="n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
