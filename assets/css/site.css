@@ -1776,7 +1776,7 @@ footer {
     border-right: inherit;
     position: relative; }
   .container-project-right .sticky-slider h3 {
-    left: 20px;
+    left: 0;
     transform: rotate(45deg);
     font-size: 1.185rem;
     line-height: 1.485rem; }
