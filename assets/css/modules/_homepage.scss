@@ -338,37 +338,6 @@
     .block-slider {
       .block-slider-inner {
         position: relative;
-        .sticky-slider {
-          position: absolute;
-          left: 0;
-          top: 0;
-          .sticky-slider-inner {
-            position: absolute;
-            left: 0;
-            top: 0;
-            width: 0;
-            height: 0;
-            border-top: 86px solid #ef5350;
-            border-right: 86px solid transparent;
-            z-index: 1;
-          }
-          h3 {
-            position: absolute;
-            left: -25px;
-            top: 10px;
-            color: white;
-            z-index: 2;
-            transform: rotate(-45deg);
-            font-size: 12px;
-            text-align: center;
-            line-height: 16px;
-            span {
-              font-weight: bold;
-              width: 100px;
-              display: inline-block;
-            }
-          }
-        }
         .countdown {
           position: absolute;
           left: 0.625rem;
@@ -410,6 +379,39 @@
     }
   }
 }
+
+.sticky-slider {
+  position: absolute;
+  left: 0;
+  top: 0;
+  .sticky-slider-inner {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    border-top: 86px solid #ef5350;
+    border-right: 86px solid transparent;
+    z-index: 1;
+  }
+  h3 {
+    position: absolute;
+    left: -25px;
+    top: 10px;
+    color: white;
+    z-index: 2;
+    transform: rotate(-45deg);
+    font-size: 12px;
+    text-align: center;
+    line-height: 16px;
+    span {
+      font-weight: bold;
+      width: 100px;
+      display: inline-block;
+    }
+  }
+}
+
 
 .main {
   background-color: #f7f8f9;

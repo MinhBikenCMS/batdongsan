@@ -64,8 +64,20 @@ h3 {
   font-family: "SFUTradeGothicBoldCondensedTwenty", sans-serif;
 }
 
+.fnMyriad {
+  font-family: "Myriad Pro";
+}
+
+.fn60 {
+  font-size: 3.75rem;
+}
+
 .fn40 {
   font-size: 2.5rem;
+}
+
+.fn34 {
+  font-size: 2.125rem !important;
 }
 
 .fn30 {
@@ -160,6 +172,10 @@ h3 {
   background-color: #ef5350;
 }
 
+.backgroundBlack {
+  background-color: #1a1514;
+}
+
 .padding18 {
   padding: 1.125rem;
 }
@@ -213,7 +229,7 @@ h3 {
 }
 
 .padding0-15 {
-  padding: 0 0.9375rem;
+  padding: 0 0.9375rem !important;
 }
 
 .padding20-15-30-20 {
@@ -284,16 +300,44 @@ h3 {
   padding: 1.25rem 4.5rem;
 }
 
+.mgTop68 {
+  margin-top: 4.25rem;
+}
+
 .mgBottom30 {
   margin-bottom: 1.875rem;
+}
+
+.mgTop3 {
+  margin-top: 0.25rem;
+}
+
+.mg18-36 {
+  margin: 1.125rem 2.25rem;
+}
+
+.mgTop2 {
+  margin-top: 0.125rem;
+}
+
+.mg8-0 {
+  margin: 0.5rem 0;
 }
 
 .verMiddle {
   vertical-align: middle;
 }
 
+.verTop {
+  vertical-align: top;
+}
+
 .borderColor {
   border-top: 1px solid #cfa267;
+}
+
+.borderRadius3 {
+  border-radius: 0.1875rem;
 }
 
 .borderRadius10 {
@@ -306,6 +350,10 @@ h3 {
 
 .disInLineBlock {
   display: inline-block;
+}
+
+.disBlock {
+  display: block;
 }
 
 .padding1530 {
@@ -321,13 +369,35 @@ h3 {
 }
 
 .flex {
-  display: flex;
+  display: flex !important;
   flex-wrap: wrap;
 }
+
 
 .itemsCenter {
   justify-content: space-between;
   align-items: center;
+}
+
+.justCenter {
+  justify-content: center;
+  align-items: center;
+}
+
+.width21per {
+  width: 21%;
+}
+
+.width34per {
+  width: 34%;
+}
+
+.width32per {
+  width: 32%;
+}
+
+.width42per {
+  width: 42%;
 }
 
 .width50per {
@@ -435,6 +505,7 @@ h3 {
 .floatLeft {
   float: left;
 }
+
 
 
 

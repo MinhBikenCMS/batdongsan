@@ -90,8 +90,17 @@ h3 {
 .fnGothic {
   font-family: "SFUTradeGothicBoldCondensedTwenty", sans-serif; }
 
+.fnMyriad {
+  font-family: "Myriad Pro"; }
+
+.fn60 {
+  font-size: 3.75rem; }
+
 .fn40 {
   font-size: 2.5rem; }
+
+.fn34 {
+  font-size: 2.125rem !important; }
 
 .fn30 {
   font-size: 1.85rem; }
@@ -162,6 +171,9 @@ h3 {
 .backGroundRed {
   background-color: #ef5350; }
 
+.backgroundBlack {
+  background-color: #1a1514; }
+
 .padding18 {
   padding: 1.125rem; }
 
@@ -202,7 +214,7 @@ h3 {
   padding: 1rem 1.875rem; }
 
 .padding0-15 {
-  padding: 0 0.9375rem; }
+  padding: 0 0.9375rem !important; }
 
 .padding20-15-30-20 {
   padding: 1.25rem 0.9375rem 1.875rem 1.25rem; }
@@ -255,14 +267,35 @@ h3 {
 .padding20-72 {
   padding: 1.25rem 4.5rem; }
 
+.mgTop68 {
+  margin-top: 4.25rem; }
+
 .mgBottom30 {
   margin-bottom: 1.875rem; }
+
+.mgTop3 {
+  margin-top: 0.25rem; }
+
+.mg18-36 {
+  margin: 1.125rem 2.25rem; }
+
+.mgTop2 {
+  margin-top: 0.125rem; }
+
+.mg8-0 {
+  margin: 0.5rem 0; }
 
 .verMiddle {
   vertical-align: middle; }
 
+.verTop {
+  vertical-align: top; }
+
 .borderColor {
   border-top: 1px solid #cfa267; }
+
+.borderRadius3 {
+  border-radius: 0.1875rem; }
 
 .borderRadius10 {
   border-radius: 1.625rem; }
@@ -272,6 +305,9 @@ h3 {
 
 .disInLineBlock {
   display: inline-block; }
+
+.disBlock {
+  display: block; }
 
 .padding1530 {
   padding: 0.9375rem 1.875rem; }
@@ -283,12 +319,28 @@ h3 {
   padding: 1.875rem 3.125rem 1.875rem 1.25rem !important; }
 
 .flex {
-  display: flex;
+  display: flex !important;
   flex-wrap: wrap; }
 
 .itemsCenter {
   justify-content: space-between;
   align-items: center; }
+
+.justCenter {
+  justify-content: center;
+  align-items: center; }
+
+.width21per {
+  width: 21%; }
+
+.width34per {
+  width: 34%; }
+
+.width32per {
+  width: 32%; }
+
+.width42per {
+  width: 42%; }
 
 .width50per {
   width: 50%; }
@@ -1446,33 +1498,6 @@ button.swiper-pagination-bullet {
       background: url("../images/slider/sticky.png") no-repeat; }
   .slider-container-inner .body-slider .block-slider .block-slider-inner {
     position: relative; }
-    .slider-container-inner .body-slider .block-slider .block-slider-inner .sticky-slider {
-      position: absolute;
-      left: 0;
-      top: 0; }
-      .slider-container-inner .body-slider .block-slider .block-slider-inner .sticky-slider .sticky-slider-inner {
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 0;
-        height: 0;
-        border-top: 86px solid #ef5350;
-        border-right: 86px solid transparent;
-        z-index: 1; }
-      .slider-container-inner .body-slider .block-slider .block-slider-inner .sticky-slider h3 {
-        position: absolute;
-        left: -25px;
-        top: 10px;
-        color: white;
-        z-index: 2;
-        transform: rotate(-45deg);
-        font-size: 12px;
-        text-align: center;
-        line-height: 16px; }
-        .slider-container-inner .body-slider .block-slider .block-slider-inner .sticky-slider h3 span {
-          font-weight: bold;
-          width: 100px;
-          display: inline-block; }
     .slider-container-inner .body-slider .block-slider .block-slider-inner .countdown {
       position: absolute;
       left: 0.625rem;
@@ -1498,6 +1523,34 @@ button.swiper-pagination-bullet {
     .slider-container-inner .body-slider .block-info .block-info-right {
       width: 50%;
       text-align: right; }
+
+.sticky-slider {
+  position: absolute;
+  left: 0;
+  top: 0; }
+  .sticky-slider .sticky-slider-inner {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    border-top: 86px solid #ef5350;
+    border-right: 86px solid transparent;
+    z-index: 1; }
+  .sticky-slider h3 {
+    position: absolute;
+    left: -25px;
+    top: 10px;
+    color: white;
+    z-index: 2;
+    transform: rotate(-45deg);
+    font-size: 12px;
+    text-align: center;
+    line-height: 16px; }
+    .sticky-slider h3 span {
+      font-weight: bold;
+      width: 100px;
+      display: inline-block; }
 
 .main {
   background-color: #f7f8f9; }
@@ -1584,26 +1637,26 @@ footer {
   text-align: left; }
 
 .home-new .swiper-container-horizontal > .swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
-  left: 2.1875rem;
-  bottom: 1rem; }
+  left: 3.5rem;
+  bottom: 1.6rem; }
 
 .home-new.container {
-  height: 21.875rem; }
+  height: 35rem; }
 
 .positionTop {
   position: absolute;
   left: 0;
   top: 0;
   z-index: 1;
-  margin: 7.5rem 4.5rem 7.5rem 2.1875rem; }
+  margin: 12rem 7.2rem 12rem 3rem; }
 
 .swiper-button-next-home, .swiper-button-prev-home {
   position: absolute;
   right: 1rem;
   bottom: 0;
   top: inherit;
-  width: 3.125rem;
-  height: 3.125rem;
+  width: 5rem;
+  height: 5rem;
   background-color: #ceaf87;
   color: white;
   background-image: inherit; }
@@ -1612,13 +1665,13 @@ footer {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    font-size: 1.5625rem; }
+    font-size: 2.5rem; }
   .swiper-button-next-home.swiper-button-disabled, .swiper-button-prev-home.swiper-button-disabled {
     background-color: #424242; }
 
 .swiper-button-prev-home {
   left: inherit;
-  right: 4.375rem; }
+  right: 7rem; }
 
 .swiper-slide.swiper-slide-video:nth-child(1n) {
   width: 45%; }
@@ -1692,5 +1745,43 @@ footer {
   .filter.open {
     max-height: 5000px;
     transition: max-height 1s ease-in; }
+
+.heightProject {
+  height: 42.7rem; }
+
+.search-container-project {
+  max-width: 92.8125%;
+  left: 2.1875%;
+  top: 18.266979%;
+  transform: none;
+  padding: 0; }
+  .search-container-project .container-project-left {
+    width: 57.8125%; }
+  .search-container-project .container-project-right {
+    width: 42.1875%;
+    position: relative; }
+  @media screen and (max-width: 450px) {
+    .search-container-project {
+      top: 5%; } }
+  @media screen and (max-width: 320px) {
+    .search-container-project {
+      top: 1%; } }
+
+.container-project-right .sticky-slider {
+  left: inherit;
+  right: 0; }
+  .container-project-right .sticky-slider .sticky-slider-inner {
+    border-left: 7.375rem solid transparent;
+    border-top: 7.375rem solid #ef5350;
+    border-right: inherit;
+    position: relative; }
+  .container-project-right .sticky-slider h3 {
+    left: 20px;
+    transform: rotate(45deg);
+    font-size: 1.185rem;
+    line-height: 1.485rem; }
+
+.project .swiper-slide.swiper-slide-block:nth-child(1n) {
+  width: 100%; }
 
 /*# sourceMappingURL=site.css.map */
