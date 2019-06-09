@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $('.nav-icon').click(function() {
+    $('.header .nav-icon').click(function() {
         $(this).toggleClass('open');
         $('.nav-mobile').toggleClass('open');
         $('.over-lay').toggleClass('open');

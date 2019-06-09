@@ -11,3 +11,16 @@
   padding-left: 0.625rem;
 }
 
+.video-detail {
+  .swiper-button-next-home, .swiper-button-prev-home {
+    width: 2.6875rem;
+    height: 2.6875rem;
+    .icon {
+      font-size: 1.5rem;
+    }
+    &.swiper-button-prev-home {
+      right: 3.7875rem;
+    }
+  }
+}
+

@@ -22,11 +22,11 @@
 }
 
 .swiper-slide.swiper-slide-footer:nth-child(1n) {
-  width: 40%;
+  width: 44%;
 }
 
 .swiper-slide.swiper-slide-footer:nth-child(2n) {
-  width: 40%;
+  width: 44%;
 }
 
 .swiper-slide.swiper-slide-block:nth-child(1n) {
@@ -477,8 +477,8 @@
 }
 
 .swiper-slide-footer {
-  margin: 1rem;
-  padding: 1rem;
+  margin: 0.625rem;
+  padding: 0.9375rem 0;
   background-color: white;
   margin-right: inherit !important;;
 }
@@ -489,7 +489,7 @@
     display: flex;
     flex-wrap: wrap;
     .title-slider {
-      width: 2.875rem;
+      width: 1.875rem;
       height: 1.25rem;
       padding: 0.225rem;
       background: url('../images/homepage/icon/icon_flag_red.jpg') no-repeat;
