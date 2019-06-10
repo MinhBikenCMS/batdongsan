@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="assets/gbnd_font/styles.css"/>
     <link rel="stylesheet" href="assets/css/site.css"/>
 </head>
-<body class="backgroundBody profile">
+<body class="backgroundBody">
 <div class="over-lay"></div>
 <header>
     <nav class="nav-mobile">
@@ -79,64 +79,72 @@
         <div class="header-right"><a href=""><i class="icon-user"></i></a></div>
     </div>
 </header>
-<div class="padding30 text-center backgroundBlack flex itemsCenter">
-    <img src="assets/images/avatar/avatar_01.png" alt="" class="verMiddle widthImgAvatar border50per">
-    <div class="verMiddle">
-        <h3 class="fn21 fnAsapMedium colorWhite">Nguyễn Thị Thanh Vy</h3>
-        <p class="mgTop3"><i class="icon icon-star active"></i><i class="icon icon-star active"></i><i
-                class="icon icon-star"></i><i class="icon icon-star"></i><i class="icon icon-star"></i></p>
-        <p class="fn13 fnAsapRegular colorWhite mgTop3">Ngày tham gia: 22/05/2016</p>
-    </div>
-    <a href="" class="fnAsapMedium fn13 colorWhite padding15 borderRadius10 text-upper mgTop10 disBlock text-center disInLineBlock backGroundRed widthPost"><i data-icon="(" class="icon verMiddle"></i> đăng tin</a>
+<div class="padding30">
+    <h3 class="fnAsapBold fn19 colorYellow text-upper "><i data-icon="D" class="icon verMiddle fn26"></i>&nbsp;&nbsp;&nbsp;
+        thông tin tài khoản</h3>
+    <h3 class="fn13 text-upper colorYellow mgTop30">thông tin liên hệ</h3>
+    <form action="/" method="post" class="input-form information">
+        <div class="padding0-10 mgTop30">
+            <div class="flex itemsCenter">
+                <label for="full name">Họ và tên <span class="colorRed"> (*)</span></label>
+                <input type="text" name="full_name">
+            </div>
+            <div class="flex itemsCenter">
+                <label for="phone">Điện thoại <span class="colorRed"> (*)</span></label>
+                <input type="text" name="phone">
+            </div>
+            <div class="flex itemsCenter">
+                <label for="phone">Email <span class="colorRed"> (*)</span></label>
+                <input type="text" name="email">
+            </div>
+            <div class="flex itemsCenter">
+                <label for="phone">Ngày sinh </label>
+                <input type="text" name="birthday">
+            </div>
+            <div class="flex itemsCenter">
+                <label for="phone">Giới tính</label>
+                <select name="gender">
+                    <option value="">-- Chọn --</option>
+                    <option value="0">Nam</option>
+                    <option value="1">Nữ</option>
+                </select>
+            </div>
+            <div class="flex itemsTop">
+                <label for="phone" class="paddingTop25px">Địa chỉ <span class="colorRed"> (*)</span></label>
+                <div class="width80per group-address">
+                    <select name="">
+                        <option value="city">-- Chọn Tỉnh thành --</option>
+                        <option value="0">Nam</option>
+                        <option value="1">Nữ</option>
+                    </select>
+                    <select name="county">
+                        <option value="">-- Quận huyện --</option>
+                        <option value="0">Nam</option>
+                        <option value="1">Nữ</option>
+                    </select>
+                    <select name="district">
+                        <option value="">-- Phường xã --</option>
+                        <option value="0">Nam</option>
+                        <option value="1">Nữ</option>
+                    </select>
+                    <input type="text" name="address" placeholder="Nhập số nhà, tên đường">
+                </div>
+            </div>
+        </div>
+        <h3 class="fn13 text-upper colorBrown mgTop30 text-left">Cập nhật hình đại diện</h3>
+        <p class="fn13 fnAsapRegular italic colorRed text-left">( File có độ lớn không quá 2MB và định dạng jpg, png, gif, jpeg)</p>
+        <div class="padding0-10 mgTop30">
+            <div class="flex justLeft">
+                <label for="none"></label>
+                <button class="borderRadius5 btn-upload colorBrown text-upper borderDashed">
+                    <i class="icon icon-add-circular-button"></i>
+                    <br>
+                    <span class="mgTop3 disInLineBlock">tải ảnh</span>
+                </button>
+            </div>
+        </div>
+    </form>
 </div>
-
-<div class="padding30 backgroundWhite">
-    <div class="flex itemsCenter">
-        <span class="fn13 fnAsapMedium colorBrown text-upper">Tài khoản chính:</span><span class="fnGothic fn21 colorRed">20.000.000 vnđ</span>
-    </div>
-    <hr class="borderProfile mgTop15">
-    <div class="flex itemsCenter mgTop15">
-        <span class="fn13 fnAsapMedium colorBrown text-upper">Tài khoản KM1:</span><span class="fnGothic fn21 colorRed">250.000 vnđ</span>
-    </div>
-    <hr class="borderProfile mgTop15">
-    <div class="flex itemsCenter mgTop15">
-        <span class="fn13 fnAsapMedium colorBrown text-upper">Tài khoản KM2:</span><span class="fnGothic fn21 colorRed">390.000 vnđ</span>
-    </div>
-</div>
-
-<div class="padding30 backgroundBody">
-    <h3 class="fn13 fnAsapRegular text-upper colorBlack">Quản lý tin đăng</h3>
-    <div class="flex itemsCenter padding15-0 mgTop15">
-        <span class="fn13 fnAsapMedium colorBrown text-upper"><a href="dangtin.html"><i data-icon="(" class="icon verMiddle"></i> &nbsp; đăng tin</a></span><i data-icon="S" class="icon"></i>
-    </div>
-    <div class="flex itemsCenter padding15-0">
-        <span class="fn13 fnAsapMedium colorRed text-upper"><i data-icon="!" class="icon verMiddle"></i> &nbsp; Danh sách tin đăng</span><i data-icon="S" class="icon colorRed"></i>
-    </div>
-    <div class="flex itemsCenter padding15-0">
-        <span class="fn13 fnAsapMedium colorBrown text-upper"><i data-icon="!" class="icon verMiddle"></i> &nbsp; tin lưu nháp</span><i data-icon="S" class="icon"></i>
-    </div>
-    <h3 class="fn13 fnAsapRegular text-upper colorBlack mgTop15">Quản lý tài chính</h3>
-    <div class="flex itemsCenter padding15-0 mgTop15">
-        <span class="fn13 fnAsapMedium colorBrown text-upper"><i data-icon="T" class="icon verMiddle"></i> &nbsp; Thông tin số dư</span><i data-icon="S" class="icon"></i>
-    </div>
-    <div class="flex itemsCenter padding15-0">
-        <span class="fn13 fnAsapMedium colorRed text-upper"><i class="icon icon-navigation-history verMiddle"></i> &nbsp; Lịch sử giao dịch</span><i data-icon="S" class="icon colorRed"></i>
-    </div>
-    <div class="flex itemsCenter padding15-0">
-        <span class="fn13 fnAsapMedium colorBrown text-upper"><i class="icon icon-credit-card verMiddle"></i> &nbsp; Nạp tiền vào tài khoản</span><i data-icon="S" class="icon"></i>
-    </div>
-    <h3 class="fn13 fnAsapRegular text-upper colorBlack mgTop15">Quản lý thông tin cá nhân</h3>
-    <div class="flex itemsCenter padding15-0 mgTop15">
-        <span class="fn13 fnAsapMedium colorBrown text-upper"><i class="icon icon-user verMiddle"></i> &nbsp; Thông tin tài khoản</span><i data-icon="S" class="icon"></i>
-    </div>
-    <div class="flex itemsCenter padding15-0">
-        <span class="fn13 fnAsapMedium colorRed text-upper"><i class="icon icon-key verMiddle"></i>&nbsp;&nbsp;&nbsp; Đổi mật khẩu</span><i data-icon="S" class="icon colorRed"></i>
-    </div>
-    <div class="flex itemsCenter padding15-0">
-        <span class="fn13 fnAsapMedium colorBrown text-upper"><i data-icon="," class="icon verMiddle"></i> &nbsp; đăng xuất</span>
-    </div>
-</div>
-
 <footer>
     <div class="head-slider padding30-15">
         <h3 class="fn13 fnAsapRegular colorWhite"><i data-icon="k" class="icon"></i> &nbsp; Phiên bản Desktop</h3>
@@ -148,7 +156,8 @@
     </div>
     <hr>
     <div class="flex itemsCenter">
-        <h3 class="fn13 fnAsapRegular colorWhite padding30-15 verMiddle">All content © copyright 2016 Gia ban Nha dat. All rights reserve</h3>
+        <h3 class="fn13 fnAsapRegular colorWhite padding30-15 verMiddle">All content © copyright 2016 Gia ban Nha dat.
+            All rights reserve</h3>
         <img class="verMiddle mgRight imgVerify" src="assets/images/homepage/verify_img.png" alt="Verify Image">
     </div>
 </footer>

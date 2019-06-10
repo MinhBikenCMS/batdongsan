@@ -1,0 +1,74 @@
+.widthImgAvatar {
+  width: 5.875rem;
+  height: 5.875rem;
+}
+
+.widthPost {
+  width: 8.125rem;
+}
+
+.profile {
+  .fn21 {
+    @media screen and (max-width: 480px) {
+      font-size: 1rem;
+    }
+  }
+  .fn13 {
+    @media screen and (max-width: 480px) {
+      font-size: 0.675rem;
+    }
+  }
+}
+
+.borderProfile {
+  border: 1px solid #d6d7d7;
+}
+
+.input-form {
+  label {
+    width: 80%;
+    text-align: left;
+    display: inline-block;
+  }
+  button.btn-upload {
+    width: auto;
+    padding: 0.9375rem 0.506rem;
+    background-color: #f8f1e8;
+  }
+  &.change-password {
+    button {
+      width: auto;
+      padding: 1.25rem 3.75rem;
+    }
+  }
+  &.information {
+    label {
+      width: 20%;
+    }
+    input {
+      width: 80%;
+      background-color: white;
+    }
+    select {
+      width: 80%;
+      display: inline-block;
+      outline: none;
+      border: none;
+      background-color: white;
+      color: #281c0c;
+      padding: 1.25rem;
+      font-size: 1rem;
+      font-family: "Asap-Regular", sans-serif;
+      margin: 0.3125rem 0;
+    }
+    .group-address {
+      input, select {
+        width: 100%;
+      }
+    }
+  }
+}
+
+
+
+

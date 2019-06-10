@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="assets/gbnd_font/styles.css"/>
     <link rel="stylesheet" href="assets/css/site.css"/>
 </head>
-<body class="backgroundBody profile">
+<body class="backgroundBody">
 <div class="over-lay"></div>
 <header>
     <nav class="nav-mobile">
@@ -79,62 +79,37 @@
         <div class="header-right"><a href=""><i class="icon-user"></i></a></div>
     </div>
 </header>
-<div class="padding30 text-center backgroundBlack flex itemsCenter">
-    <img src="assets/images/avatar/avatar_01.png" alt="" class="verMiddle widthImgAvatar border50per">
-    <div class="verMiddle">
-        <h3 class="fn21 fnAsapMedium colorWhite">Nguyễn Thị Thanh Vy</h3>
-        <p class="mgTop3"><i class="icon icon-star active"></i><i class="icon icon-star active"></i><i
-                class="icon icon-star"></i><i class="icon icon-star"></i><i class="icon icon-star"></i></p>
-        <p class="fn13 fnAsapRegular colorWhite mgTop3">Ngày tham gia: 22/05/2016</p>
-    </div>
-    <a href="" class="fnAsapMedium fn13 colorWhite padding15 borderRadius10 text-upper mgTop10 disBlock text-center disInLineBlock backGroundRed widthPost"><i data-icon="(" class="icon verMiddle"></i> đăng tin</a>
-</div>
+<div class="padding30-15 text-center backgroundWhite">
+    <h3 class="fnAsapRegular fn24 colorRed text-upper mgTop30">đăng ký tài khoản</h3>
+    <form action="" class="input-form mgTop30" method="post">
+        <input type="text" name="fullname" placeholder="Tên đầy đủ  (*)">
+        <input type="text" name="username" placeholder="Tên đăng nhập (*)">
+        <input type="password" name="password" placeholder="Mật khẩu (*)">
+        <input type="password" name="re_password" placeholder="Xác nhận mật khẩu (*)">
+        <input type="email" name="email" placeholder="Email (*)">
+        <input type="tel" name="phone" placeholder="Điện thoại (*)">
+        <input type="text" name="address" placeholder="Địa chỉ (*)">
+        <div class="input-checkbox">
+            <input type="checkbox" class="verMiddle" name="is_agree"> &nbsp; <span class="text-upper">Tôi đã đọc và đồng ý các</span><span
+                class="colorRed text-upper"> điều kiện Thỏa thuận sử dụng</span>
+        </div>
+        <br>
+        <button class="fn19 fnAsapRegular colorWhite text-upper">đăng ký mới</button>
+    </form>
 
-<div class="padding30 backgroundWhite">
-    <div class="flex itemsCenter">
-        <span class="fn13 fnAsapMedium colorBrown text-upper">Tài khoản chính:</span><span class="fnGothic fn21 colorRed">20.000.000 vnđ</span>
-    </div>
-    <hr class="borderProfile mgTop15">
-    <div class="flex itemsCenter mgTop15">
-        <span class="fn13 fnAsapMedium colorBrown text-upper">Tài khoản KM1:</span><span class="fnGothic fn21 colorRed">250.000 vnđ</span>
-    </div>
-    <hr class="borderProfile mgTop15">
-    <div class="flex itemsCenter mgTop15">
-        <span class="fn13 fnAsapMedium colorBrown text-upper">Tài khoản KM2:</span><span class="fnGothic fn21 colorRed">390.000 vnđ</span>
-    </div>
-</div>
+    <h3 class="fnAsapRegular fn13 colorBlack text-upper mgTop100">Bạn đã có tài khoản? đăng nhập ngay!</h3>
 
-<div class="padding30 backgroundBody">
-    <h3 class="fn13 fnAsapRegular text-upper colorBlack">Quản lý tin đăng</h3>
-    <div class="flex itemsCenter padding15-0 mgTop15">
-        <span class="fn13 fnAsapMedium colorBrown text-upper"><a href="dangtin.html"><i data-icon="(" class="icon verMiddle"></i> &nbsp; đăng tin</a></span><i data-icon="S" class="icon"></i>
+    <a href="login.html" class="text-upper fnAsapMedium fn13 colorYellow borderDashed borderRadius10 disInLineBlock padding20-72 mgTop15">đăng nhập</a>
+
+    <h3 class="fnAsapRegular fn13 colorBlack text-upper mgTop100">Đăng nhập bằng tài khoản</h3>
+
+    <div class="button-facebook padding20-72 mgTop15">
+        <a href="#" class="login-facebook text-upper colorWhite">Đăng nhập qua Facebook</a>
     </div>
-    <div class="flex itemsCenter padding15-0">
-        <span class="fn13 fnAsapMedium colorRed text-upper"><i data-icon="!" class="icon verMiddle"></i> &nbsp; Danh sách tin đăng</span><i data-icon="S" class="icon colorRed"></i>
+    <div class="button-google padding20-72 mgTop15">
+        <a href="#" class="login-google text-upper colorWhite">Đăng nhập qua Google +</a>
     </div>
-    <div class="flex itemsCenter padding15-0">
-        <span class="fn13 fnAsapMedium colorBrown text-upper"><i data-icon="!" class="icon verMiddle"></i> &nbsp; tin lưu nháp</span><i data-icon="S" class="icon"></i>
-    </div>
-    <h3 class="fn13 fnAsapRegular text-upper colorBlack mgTop15">Quản lý tài chính</h3>
-    <div class="flex itemsCenter padding15-0 mgTop15">
-        <span class="fn13 fnAsapMedium colorBrown text-upper"><i data-icon="T" class="icon verMiddle"></i> &nbsp; Thông tin số dư</span><i data-icon="S" class="icon"></i>
-    </div>
-    <div class="flex itemsCenter padding15-0">
-        <span class="fn13 fnAsapMedium colorRed text-upper"><i class="icon icon-navigation-history verMiddle"></i> &nbsp; Lịch sử giao dịch</span><i data-icon="S" class="icon colorRed"></i>
-    </div>
-    <div class="flex itemsCenter padding15-0">
-        <span class="fn13 fnAsapMedium colorBrown text-upper"><i class="icon icon-credit-card verMiddle"></i> &nbsp; Nạp tiền vào tài khoản</span><i data-icon="S" class="icon"></i>
-    </div>
-    <h3 class="fn13 fnAsapRegular text-upper colorBlack mgTop15">Quản lý thông tin cá nhân</h3>
-    <div class="flex itemsCenter padding15-0 mgTop15">
-        <span class="fn13 fnAsapMedium colorBrown text-upper"><i class="icon icon-user verMiddle"></i> &nbsp; Thông tin tài khoản</span><i data-icon="S" class="icon"></i>
-    </div>
-    <div class="flex itemsCenter padding15-0">
-        <span class="fn13 fnAsapMedium colorRed text-upper"><i class="icon icon-key verMiddle"></i>&nbsp;&nbsp;&nbsp; Đổi mật khẩu</span><i data-icon="S" class="icon colorRed"></i>
-    </div>
-    <div class="flex itemsCenter padding15-0">
-        <span class="fn13 fnAsapMedium colorBrown text-upper"><i data-icon="," class="icon verMiddle"></i> &nbsp; đăng xuất</span>
-    </div>
+
 </div>
 
 <footer>
