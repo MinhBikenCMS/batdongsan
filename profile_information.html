@@ -79,11 +79,11 @@
         <div class="header-right"><a href=""><i class="icon-user"></i></a></div>
     </div>
 </header>
-<div class="padding30">
-    <h3 class="fnAsapBold fn19 colorYellow text-upper "><i data-icon="D" class="icon verMiddle fn26"></i>&nbsp;&nbsp;&nbsp;
-        thông tin tài khoản</h3>
-    <h3 class="fn13 text-upper colorYellow mgTop30">thông tin liên hệ</h3>
-    <form action="/" method="post" class="input-form information">
+<form action="/" method="post" class="input-form information">
+    <div class="padding30">
+        <h3 class="fnAsapBold fn19 colorYellow text-upper "><i data-icon="D" class="icon verMiddle fn26"></i>&nbsp;&nbsp;&nbsp;
+            thông tin tài khoản</h3>
+        <h3 class="fn13 text-upper colorYellow mgTop30">thông tin liên hệ</h3>
         <div class="padding0-10 mgTop30">
             <div class="flex itemsCenter">
                 <label for="full name">Họ và tên <span class="colorRed"> (*)</span></label>
@@ -112,12 +112,12 @@
             <div class="flex itemsTop">
                 <label for="phone" class="paddingTop25px">Địa chỉ <span class="colorRed"> (*)</span></label>
                 <div class="width80per group-address">
-                    <select name="">
+                    <select name="city">
                         <option value="city">-- Chọn Tỉnh thành --</option>
                         <option value="0">Nam</option>
                         <option value="1">Nữ</option>
                     </select>
-                    <select name="county">
+                    <select name="province">
                         <option value="">-- Quận huyện --</option>
                         <option value="0">Nam</option>
                         <option value="1">Nữ</option>
@@ -131,8 +131,12 @@
                 </div>
             </div>
         </div>
-        <h3 class="fn13 text-upper colorBrown mgTop30 text-left">Cập nhật hình đại diện</h3>
-        <p class="fn13 fnAsapRegular italic colorRed text-left">( File có độ lớn không quá 2MB và định dạng jpg, png, gif, jpeg)</p>
+    </div>
+    <hr class="borderDashedBrown">
+    <div class="padding30">
+        <h3 class="fn13 text-upper colorBrown text-left">Cập nhật hình đại diện</h3>
+        <p class="fn13 fnAsapRegular italic colorRed text-left">( File có độ lớn không quá 2MB và định dạng jpg, png,
+            gif, jpeg)</p>
         <div class="padding0-10 mgTop30">
             <div class="flex justLeft">
                 <label for="none"></label>
@@ -143,8 +147,106 @@
                 </button>
             </div>
         </div>
-    </form>
-</div>
+    </div>
+    <hr class="borderDashedBrown">
+    <div class="padding30 mgTop30 flex itemsCenter">
+        <div class="created-left">
+            <h3 class="fn13 text-upper colorBrown text-left">Thêm lĩnh vực mô giới</h3>
+            <p class="fn13 fnAsapRegular italic colorRed text-left">(Mỗi cá nhân không có quá 3 lĩnh vực môi giới)</p>
+        </div>
+        <button class="borderRadius5 btn-upload colorBrown text-upper borderDashed created-right">
+            <i class="icon icon-add-circular-button fn16 verMiddle"></i>
+            <span class="mgTop3 disInLineBlock">thêm Lĩnh vực môi giới</span>
+        </button>
+    </div>
+    <div class="padding30 mgTop30 flex itemsCenter backgroundWhite">
+        <div class="flex itemsCenter">
+            <div class="created-inner width90per text-center">
+                <select name="">
+                    <option value="type">-- Chọn Lĩnh vực --</option>
+                    <option value="0">Nam</option>
+                    <option value="1">Nữ</option>
+                </select>
+                <select name="">
+                    <option value="city">-- Chọn Tỉnh thành --</option>
+                    <option value="0">Nam</option>
+                    <option value="1">Nữ</option>
+                </select>
+                <select name="">
+                    <option value="province">-- Quận huyện --</option>
+                    <option value="0">Nam</option>
+                    <option value="1">Nữ</option>
+                </select>
+                <select name="">
+                    <option value="city">-- Dự án --</option>
+                    <option value="0">Nam</option>
+                    <option value="1">Nữ</option>
+                </select>
+            </div>
+            <a class="borderRadius5 padding10 backGroundRed colorWhite" href="">
+                <i data-icon="n" class="icon"></i>
+            </a>
+        </div>
+    </div>
+    <div class="padding30 flex itemsCenter">
+        <div class="flex itemsCenter">
+            <div class="created-inner width90per text-center">
+                <select name="">
+                    <option value="type">-- Chọn Lĩnh vực --</option>
+                    <option value="0">Nam</option>
+                    <option value="1">Nữ</option>
+                </select>
+                <select name="">
+                    <option value="city">-- Chọn Tỉnh thành --</option>
+                    <option value="0">Nam</option>
+                    <option value="1">Nữ</option>
+                </select>
+                <select name="">
+                    <option value="province">-- Quận huyện --</option>
+                    <option value="0">Nam</option>
+                    <option value="1">Nữ</option>
+                </select>
+                <select name="">
+                    <option value="city">-- Dự án --</option>
+                    <option value="0">Nam</option>
+                    <option value="1">Nữ</option>
+                </select>
+            </div>
+            <a class="borderRadius5 padding10 backGroundRed colorWhite" href="">
+                <i data-icon="n" class="icon"></i>
+            </a>
+        </div>
+    </div>
+    <div class="padding30 flex itemsCenter backgroundWhite">
+        <div class="flex itemsCenter">
+            <div class="created-inner width90per text-center">
+                <select name="">
+                    <option value="type">-- Chọn Lĩnh vực --</option>
+                    <option value="0">Nam</option>
+                    <option value="1">Nữ</option>
+                </select>
+                <select name="">
+                    <option value="city">-- Chọn Tỉnh thành --</option>
+                    <option value="0">Nam</option>
+                    <option value="1">Nữ</option>
+                </select>
+                <select name="">
+                    <option value="province">-- Quận huyện --</option>
+                    <option value="0">Nam</option>
+                    <option value="1">Nữ</option>
+                </select>
+                <select name="">
+                    <option value="city">-- Dự án --</option>
+                    <option value="0">Nam</option>
+                    <option value="1">Nữ</option>
+                </select>
+            </div>
+            <a class="borderRadius5 padding10 backGroundRed colorWhite" href="">
+                <i data-icon="n" class="icon"></i>
+            </a>
+        </div>
+    </div>
+</form>
 <footer>
     <div class="head-slider padding30-15">
         <h3 class="fn13 fnAsapRegular colorWhite"><i data-icon="k" class="icon"></i> &nbsp; Phiên bản Desktop</h3>
@@ -153,7 +255,7 @@
                                                                     class="borderBottom fnAsapRegular colorWhite">Hotline:
                 1900 xxx</a></h2>
         </div>
-    </div>
+    </div>c
     <hr>
     <div class="flex itemsCenter">
         <h3 class="fn13 fnAsapRegular colorWhite padding30-15 verMiddle">All content © copyright 2016 Gia ban Nha dat.
@@ -167,19 +269,5 @@
 <script type="text/javascript" src="https://cdn.houseviet.vn/js/jquery.savingcost.js?v=0.0.2"></script>
 <script src="https://cdn.houseviet.vn/js/lazyload.min.js?v=0.0.2"></script>
 <script type="text/javascript" src="https://cdn.houseviet.vn/js/app.core.min.js?v=0.0.2"></script>
-<script type="text/javascript">
-    $(document).ready(function () {
-        var swiper2 = new Swiper('.swiper-container-analytic', {
-            slidesPerView: 'auto',
-            spaceBetween: 30
-        });
-
-        var swiper3 = new Swiper('.swiper-container-construct', {
-            slidesPerView: 'auto',
-            spaceBetween: 30
-        });
-        AppCore.initHomePage();
-    });
-</script>
 </body>
 </html>
