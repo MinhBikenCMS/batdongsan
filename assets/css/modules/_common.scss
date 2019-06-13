@@ -211,6 +211,10 @@ h3 {
   color: #3f3424;
 }
 
+.colorBrownBold {
+  color: #572e09;
+}
+
 .colorWhite {
   color: white !important;
 }
@@ -218,6 +222,10 @@ h3 {
 
 .colorBlue {
   color: #2c5fac;
+}
+
+.backgroundButtonBrown {
+  background-color: #eee;
 }
 
 .backgroundBody {
@@ -329,6 +337,10 @@ h3 {
 
 .padding20-15-30-20 {
   padding: 1.25rem 0.9375rem 1.875rem 1.25rem;
+}
+
+.padding20-0-20-20 {
+  padding: 1.25rem 0 1.25rem 1.25rem;
 }
 
 .padding0-60 {
@@ -494,6 +506,10 @@ h3 {
   padding: 0.9375rem 0;
 }
 
+.padding10-15 {
+  padding: 0.625rem 0.9375rem;
+}
+
 .padding30-0 {
   padding: 1.875rem 0;
 }
@@ -549,8 +565,16 @@ h3 {
   width: 10%;
 }
 
+.width20per {
+  width: 20%;
+}
+
 .width21per {
   width: 21%;
+}
+
+.width30per {
+  width: 30%;
 }
 
 .width29per {
@@ -580,6 +604,11 @@ h3 {
 .width70per {
   width: 70%;
 }
+
+.width78per {
+  width: 78%;
+}
+
 
 .width80per {
   width: 80%;

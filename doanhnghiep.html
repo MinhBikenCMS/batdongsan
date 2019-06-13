@@ -171,58 +171,5 @@
 <script type="text/javascript" src="https://cdn.houseviet.vn/js/jquery.savingcost.js?v=0.0.2"></script>
 <script src="https://cdn.houseviet.vn/js/lazyload.min.js?v=0.0.2"></script>
 <script type="text/javascript" src="https://cdn.houseviet.vn/js/app.core.min.js?v=0.0.2"></script>
-<script type="text/javascript">
-    $(document).ready(function () {
-
-        var swiper = new Swiper('.swiper-container-video', {
-            slidesPerView: 'auto',
-            spaceBetween: 30,
-            navigation: {
-                nextEl: '.swiper-button-next-video',
-                prevEl: '.swiper-button-prev-video'
-            }
-        });
-
-        var galleryThumbs = new Swiper('.gallery-thumbs', {
-            spaceBetween: 10,
-            slidesPerView: 4,
-            freeMode: true,
-            watchSlidesVisibility: true,
-            watchSlidesProgress: true,
-        });
-        var galleryTop = new Swiper('.gallery-top', {
-            spaceBetween: 10,
-            navigation: {
-                nextEl: '.swiper-button-next-home',
-                prevEl: '.swiper-button-prev-home'
-            },
-            thumbs: {
-                swiper: galleryThumbs
-            }
-        });
-
-        var swiper1 = new Swiper('.swiper-container-construct', {
-            slidesPerView: 'auto',
-            spaceBetween: 30
-        });
-
-        var swiper2 = new Swiper('.swiper-container-footer', {
-            slidesPerView: 'auto',
-            spaceBetween: 30,
-            breakpoints: {
-                500: {
-                    slidesPerView: 1,
-                    pagination: {
-                        el: '.swiper-pagination-2',
-                        clickable: true
-                    }
-                }
-            }
-        });
-
-        AppCore.initHomePage();
-
-    });
-</script>
 </body>
 </html>

@@ -199,11 +199,17 @@ h3 {
 .colorBrown {
   color: #3f3424; }
 
+.colorBrownBold {
+  color: #572e09; }
+
 .colorWhite {
   color: white !important; }
 
 .colorBlue {
   color: #2c5fac; }
+
+.backgroundButtonBrown {
+  background-color: #eee; }
 
 .backgroundBody {
   background-color: #f7f8f9; }
@@ -288,6 +294,9 @@ h3 {
 
 .padding20-15-30-20 {
   padding: 1.25rem 0.9375rem 1.875rem 1.25rem; }
+
+.padding20-0-20-20 {
+  padding: 1.25rem 0 1.25rem 1.25rem; }
 
 .padding0-60 {
   padding: 0 3.75rem; }
@@ -412,6 +421,9 @@ h3 {
 .padding15-0 {
   padding: 0.9375rem 0; }
 
+.padding10-15 {
+  padding: 0.625rem 0.9375rem; }
+
 .padding30-0 {
   padding: 1.875rem 0; }
 
@@ -454,8 +466,14 @@ h3 {
 .width10per {
   width: 10%; }
 
+.width20per {
+  width: 20%; }
+
 .width21per {
   width: 21%; }
+
+.width30per {
+  width: 30%; }
 
 .width29per {
   width: 29%; }
@@ -477,6 +495,9 @@ h3 {
 
 .width70per {
   width: 70%; }
+
+.width78per {
+  width: 78%; }
 
 .width80per {
   width: 80%; }
@@ -2240,5 +2261,17 @@ footer {
     margin-top: 1rem; } }
 .input-form.information .created-inner select {
   width: 45%; }
+
+@media screen and (max-width: 528px) {
+  .broker .info .padding20 {
+    padding: 0.65rem; } }
+@media screen and (max-width: 528px) {
+  .broker .info .fn13 {
+    font-size: 0.675rem; } }
+
+.span-call {
+  position: absolute;
+  right: 0.625rem;
+  bottom: 0.625rem; }
 
 /*# sourceMappingURL=site.css.map */

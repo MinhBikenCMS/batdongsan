@@ -103,6 +103,26 @@
   }
 }
 
+.broker {
+  .info {
+    .padding20 {
+      @media screen and (max-width: 528px) {
+        padding: 0.65rem;
+      }
+    }
+    .fn13 {
+      @media screen and (max-width: 528px) {
+        font-size: 0.675rem;
+      }
+    }
+  }
+}
+
+.span-call {
+  position: absolute;
+  right: 0.625rem;
+  bottom: 0.625rem;
+}
 
 
 
