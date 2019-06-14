@@ -437,7 +437,7 @@
     background-size: cover;
   }
   .block-right {
-    width: 60%;
+    width: 75%;
     i {
       vertical-align: middle;
     }
@@ -467,6 +467,7 @@
         float: left;
       }
       span {
+        width: 50%;
         float: right;
         @media screen and ( max-width: 340px ) {
           float: left;

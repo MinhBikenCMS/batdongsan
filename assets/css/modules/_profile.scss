@@ -116,6 +116,31 @@
       }
     }
   }
+  .swiper-slide:nth-child(1n) {
+    width: 44%;
+  }
+
+  .swiper-slide:nth-child(2n) {
+    width: 44%;
+  }
+
+  .swiper-pagination {
+    position: relative;
+    left: inherit;
+    right: inherit;
+    top: inherit;
+    bottom: inherit;
+  }
+
+  .swiper-slide {
+    .i {
+      width: 1rem;
+      height: 1rem;
+    }
+    span {
+      width: 85%;
+    }
+  }
 }
 
 .span-call {
@@ -123,6 +148,16 @@
   right: 0.625rem;
   bottom: 0.625rem;
 }
+
+.broker-detail {
+  height: 12.5rem;
+  button {
+    position: absolute;
+    right: 5px;
+    bottom: 15px;
+  }
+}
+
 
 
 

@@ -298,6 +298,9 @@ h3 {
 .padding20-0-20-20 {
   padding: 1.25rem 0 1.25rem 1.25rem; }
 
+.padding20-0-0-30 {
+  padding: 1.25rem 0 0 1.875rem; }
+
 .padding0-60 {
   padding: 0 3.75rem; }
 
@@ -451,8 +454,14 @@ h3 {
   justify-content: center;
   align-items: center; }
 
+.justContent {
+  justify-content: center; }
+
 .justLeft {
   justify-content: left; }
+
+.width186px {
+  width: 11.5rem; }
 
 .width90px {
   width: 5.625rem; }
@@ -631,8 +640,7 @@ h3 {
   width: 0.625rem;
   background-color: #e27070;
   border-radius: 50%;
-  display: inline-block;
-  margin: 0 1.25rem 0 0.25rem; }
+  display: inline-block; }
 
 .borderShadow {
   box-shadow: 0 0.3125rem #dddedf; }
@@ -1762,7 +1770,7 @@ button.swiper-pagination-bullet {
     -o-background-size: cover;
     background-size: cover; }
   .block .block-right {
-    width: 60%; }
+    width: 75%; }
     .block .block-right i {
       vertical-align: middle; }
     .block .block-right .block-right-inner {
@@ -1785,6 +1793,7 @@ button.swiper-pagination-bullet {
     .block .block-right p span:first-child {
       float: left; }
     .block .block-right p span {
+      width: 50%;
       float: right; }
       @media screen and (max-width: 340px) {
         .block .block-right p span {
@@ -2268,10 +2277,32 @@ footer {
 @media screen and (max-width: 528px) {
   .broker .info .fn13 {
     font-size: 0.675rem; } }
+.broker .swiper-slide:nth-child(1n) {
+  width: 44%; }
+.broker .swiper-slide:nth-child(2n) {
+  width: 44%; }
+.broker .swiper-pagination {
+  position: relative;
+  left: inherit;
+  right: inherit;
+  top: inherit;
+  bottom: inherit; }
+.broker .swiper-slide .i {
+  width: 1rem;
+  height: 1rem; }
+.broker .swiper-slide span {
+  width: 85%; }
 
 .span-call {
   position: absolute;
   right: 0.625rem;
   bottom: 0.625rem; }
+
+.broker-detail {
+  height: 12.5rem; }
+  .broker-detail button {
+    position: absolute;
+    right: 5px;
+    bottom: 15px; }
 
 /*# sourceMappingURL=site.css.map */
