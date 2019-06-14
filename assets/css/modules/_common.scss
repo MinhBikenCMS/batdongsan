@@ -252,6 +252,10 @@ h3 {
   background-color: #f8f1e8;
 }
 
+.backGroundYellow4 {
+  background-color: #fffcf9;
+}
+
 .backGroundFacebook {
   background-color: #4b76bd;
 }
@@ -476,6 +480,10 @@ h3 {
 
 .borderRadius5 {
   border-radius: 0.3125rem;
+}
+
+.borderRadius8 {
+  border-radius: 0.5rem;
 }
 
 .borderRadius10 {
@@ -796,7 +804,15 @@ h3 {
 }
 
 .borderShadow {
-  box-shadow: 0 0.3125rem #dddedf;
+  -webkit-box-shadow: 0 0.3125rem #dddedf;
+  -moz-box-shadow: 0 0.3125rem #dddedf;
+  box-shadow: 0 0.1125rem #dddedf;
+}
+
+.borderShadowProfile {
+  -webkit-box-shadow: 0 0.1125rem #d2cac1;
+  -moz-box-shadow: 0 0.1125rem #d2cac1;
+  box-shadow: 0 0.1125rem #d2cac1;
 }
 
 .lineHeight24px {
