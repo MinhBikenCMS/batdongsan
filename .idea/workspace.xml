@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79887c8c-079a-4013-9876-411092bb8223" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/homepage/icon/arrow_triangle.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/modules/_common.scss" afterPath="$PROJECT_DIR$/assets/css/modules/_common.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/modules/_homepage.scss" afterPath="$PROJECT_DIR$/assets/css/modules/_homepage.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/modules/_profile.scss" afterPath="$PROJECT_DIR$/assets/css/modules/_profile.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/site.css" afterPath="$PROJECT_DIR$/assets/css/site.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/site.css.map" afterPath="$PROJECT_DIR$/assets/css/site.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nhamogioi_chitiet.html" afterPath="$PROJECT_DIR$/nhamogioi_chitiet.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/change_password.html" afterPath="$PROJECT_DIR$/change_password.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dangtin.html" afterPath="$PROJECT_DIR$/dangtin.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profile_information.html" afterPath="$PROJECT_DIR$/profile_information.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,18 +29,8 @@
       <file leaf-file-name="_common.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/modules/_common.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="484" column="14" lean-forward="false" selection-start-line="484" selection-start-column="1" selection-end-line="484" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_homepage.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/modules/_homepage.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-75">
-              <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            <state relative-caret-position="484">
+              <caret line="569" column="0" lean-forward="true" selection-start-line="569" selection-start-column="0" selection-end-line="569" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -45,37 +39,29 @@
       <file leaf-file-name="_profile.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/modules/_profile.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="127" column="26" lean-forward="false" selection-start-line="127" selection-start-column="26" selection-end-line="127" selection-end-column="26" />
+            <state relative-caret-position="545">
+              <caret line="198" column="20" lean-forward="true" selection-start-line="198" selection-start-column="20" selection-end-line="198" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index1.html">
+      <file leaf-file-name="profile_information.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/profile_information.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="481" column="11" lean-forward="true" selection-start-line="474" selection-start-column="8" selection-end-line="481" selection-end-column="11" />
+            <state relative-caret-position="405">
+              <caret line="27" column="27" lean-forward="false" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nhamogioi_chitiet.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/nhamogioi_chitiet.html">
+      <file leaf-file-name="dangtin.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dangtin.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="509">
-              <caret line="323" column="49" lean-forward="false" selection-start-line="323" selection-start-column="49" selection-end-line="323" selection-end-column="49" />
-              <folding>
-                <element signature="e#4180#4186#0" expanded="true" />
-                <element signature="e#8540#8546#0" expanded="true" />
-                <element signature="e#9442#9448#0" expanded="true" />
-                <element signature="n#div#0;n#div#0;n#div#1;n#div#6;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#1;n#div#6;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#0;n#div#1;n#div#6;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#0;n#div#1;n#div#6;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
+            <state relative-caret-position="365">
+              <caret line="290" column="66" lean-forward="false" selection-start-line="290" selection-start-column="66" selection-end-line="290" selection-end-column="66" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -92,36 +78,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>INPUT</find>
-      <find>VOTRE PANIER</find>
-      <find>/fr</find>
-      <find>281c0c</find>
-      <find>colorBl</find>
-      <find>572e09</find>
-      <find>47392c</find>
-      <find>20-</find>
-      <find>padding10-15</find>
-      <find>padding</find>
-      <find>backgroundBo</find>
-      <find>pagging</find>
-      <find>justCe</find>
-      <find>mgTop</find>
-      <find>padding20-0-20-20</find>
-      <find>img</find>
-      <find>dot</find>
       <find>dot</find>
       <find>margin0-10</find>
       <find>lock mgTop15 padding0-30</find>
       <find>.block-right-inner</find>
       <find>.block .block-right</find>
       <find>fnAsapMedium mgTop15 text-upper colorBrown</find>
-      <find>width</find>
       <find>block-left</find>
       <find>swiper-pagination-1</find>
       <find>swiper-container-block</find>
       <find>backGrou</find>
       <find>borderS</find>
       <find>borderRadius5</find>
+      <find>red</find>
+      <find>efefef</find>
+      <find>backGround</find>
+      <find>backGroundW</find>
+      <find>colorBlac</find>
+      <find>text-upper colorBlack fnAsapRegular padding15 street-view active</find>
+      <find>mgLeft15</find>
+      <find>input</find>
+      <find>colorYel</find>
+      <find>width</find>
+      <find>.select-type</find>
+      <find>fn14</find>
+      <find>select</find>
+      <find>width50per</find>
+      <find>width5</find>
+      <find>mgRight15</find>
+      <find>padding10-0</find>
+      <find>padding10-10</find>
     </findStrings>
     <replaceStrings>
       <replace>fnAsapRegular</replace>
@@ -145,7 +131,6 @@
         <option value="$PROJECT_DIR$/naptien.html" />
         <option value="$PROJECT_DIR$/registry.html" />
         <option value="$PROJECT_DIR$/assets/css/modules/_homenew.scss" />
-        <option value="$PROJECT_DIR$/login.html" />
         <option value="$PROJECT_DIR$/nhadatban.html" />
         <option value="$PROJECT_DIR$/assets/css/modules/_header.scss" />
         <option value="$PROJECT_DIR$/duan.html" />
@@ -160,20 +145,21 @@
         <option value="$PROJECT_DIR$/home_new_detail.html" />
         <option value="$PROJECT_DIR$/assets/css/site.scss" />
         <option value="$PROJECT_DIR$/profile.html" />
-        <option value="$PROJECT_DIR$/change_password.html" />
         <option value="$PROJECT_DIR$/sodu.html" />
         <option value="$PROJECT_DIR$/assets/css/modules/_enterprise.scss" />
         <option value="$PROJECT_DIR$/../omnicanal/drupal/web/modules/custom/omnicanal_custom/templates/omnicanal-custom-header_nav.html.twig" />
-        <option value="$PROJECT_DIR$/profile_information.html" />
         <option value="$PROJECT_DIR$/doanhnghiep.html" />
         <option value="$PROJECT_DIR$/nhamogioi.html" />
-        <option value="$PROJECT_DIR$/dangtin.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/index1.html" />
+        <option value="$PROJECT_DIR$/nhamogioi_chitiet.html" />
+        <option value="$PROJECT_DIR$/login.html" />
+        <option value="$PROJECT_DIR$/change_password.html" />
         <option value="$PROJECT_DIR$/assets/css/modules/_homepage.scss" />
+        <option value="$PROJECT_DIR$/profile_information.html" />
         <option value="$PROJECT_DIR$/assets/css/modules/_profile.scss" />
         <option value="$PROJECT_DIR$/assets/css/modules/_common.scss" />
-        <option value="$PROJECT_DIR$/nhamogioi_chitiet.html" />
+        <option value="$PROJECT_DIR$/dangtin.html" />
       </list>
     </option>
   </component>
@@ -204,8 +190,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -267,6 +251,54 @@
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="homepage" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="batdongsan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="batdongsan" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="homepage" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="icon" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="batdongsan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="batdongsan" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -286,8 +318,32 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="batdongsan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="batdongsan" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -300,17 +356,17 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/css/modules" />
-      <recent name="$PROJECT_DIR$/assets" />
-      <recent name="$PROJECT_DIR$/assets/js" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images/homepage/icon" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/assets/images/homepage" />
       <recent name="$PROJECT_DIR$/assets/images/avatar" />
       <recent name="$PROJECT_DIR$/assets/gbnd_font/fonts/myriad-pro" />
-      <recent name="$PROJECT_DIR$/assets/gbnd_font/fonts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/css/modules" />
+      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$/assets/js" />
     </key>
   </component>
   <component name="RunManager">
@@ -399,22 +455,22 @@
       <workItem from="1560501003175" duration="843000" />
       <workItem from="1560504018724" duration="1165000" />
       <workItem from="1560506726139" duration="615000" />
-      <workItem from="1560511256396" duration="6612000" />
+      <workItem from="1560511256396" duration="7374000" />
+      <workItem from="1560611578911" duration="10451000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="281071000" />
+    <option name="totallyTimeSpent" value="292284000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1023" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30830282" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31196582" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -426,6 +482,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -440,16 +497,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/images/homepage/icon/icon_flag_red.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/homepage/icon/arrow.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/images/homepage/icon/arrow-next.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -495,13 +542,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="268" column="10" lean-forward="false" selection-start-line="268" selection-start-column="10" selection-end-line="268" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="90" column="8" lean-forward="false" selection-start-line="90" selection-start-column="8" selection-end-line="90" selection-end-column="83" />
         </state>
       </provider>
     </entry>
@@ -589,13 +629,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nhadatban_chitiet.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="232" column="68" lean-forward="true" selection-start-line="232" selection-start-column="68" selection-end-line="232" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/profile.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -617,20 +650,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/registry.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="114" column="7" lean-forward="false" selection-start-line="114" selection-start-column="7" selection-end-line="114" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/change_password.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="85" column="51" lean-forward="true" selection-start-line="85" selection-start-column="51" selection-end-line="85" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/modules/_enterprise.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -642,13 +661,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="635">
           <caret line="916" column="41" lean-forward="true" selection-start-line="916" selection-start-column="41" selection-end-line="916" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/profile_information.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="157" column="66" lean-forward="false" selection-start-line="157" selection-start-column="66" selection-end-line="157" selection-end-column="66" />
         </state>
       </provider>
     </entry>
@@ -701,18 +713,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dangtin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="785">
-          <caret line="134" column="98" lean-forward="false" selection-start-line="134" selection-start-column="98" selection-end-line="134" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/duan_detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="406" column="0" lean-forward="false" selection-start-line="406" selection-start-column="0" selection-end-line="421" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -720,7 +724,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="39" column="35" lean-forward="false" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nhamogioi_chitiet.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="323" column="49" lean-forward="false" selection-start-line="323" selection-start-column="49" selection-end-line="323" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -734,49 +744,96 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="481" column="11" lean-forward="true" selection-start-line="474" selection-start-column="8" selection-end-line="481" selection-end-column="11" />
+        <state relative-caret-position="885">
+          <caret line="147" column="10" lean-forward="true" selection-start-line="97" selection-start-column="4" selection-end-line="147" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nhadatban_chitiet.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="739">
+          <caret line="193" column="21" lean-forward="true" selection-start-line="170" selection-start-column="4" selection-end-line="193" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/block.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="228" column="16" lean-forward="false" selection-start-line="228" selection-start-column="16" selection-end-line="228" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/registry.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1710">
+          <caret line="114" column="7" lean-forward="false" selection-start-line="114" selection-start-column="7" selection-end-line="114" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="99" column="27" lean-forward="true" selection-start-line="99" selection-start-column="27" selection-end-line="99" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/change_password.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="88" column="14" lean-forward="false" selection-start-line="88" selection-start-column="14" selection-end-line="88" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/web-forms.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="378" column="22" lean-forward="false" selection-start-line="378" selection-start-column="22" selection-end-line="378" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/modules/_homepage.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-75">
-          <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="397">
+          <caret line="133" column="2" lean-forward="false" selection-start-line="133" selection-start-column="2" selection-end-line="133" selection-end-column="77" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/modules/_common.scss">
+    <entry file="file://$PROJECT_DIR$/profile_information.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="484" column="14" lean-forward="false" selection-start-line="484" selection-start-column="1" selection-end-line="484" selection-end-column="14" />
+        <state relative-caret-position="405">
+          <caret line="27" column="27" lean-forward="false" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/modules/_profile.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="127" column="26" lean-forward="false" selection-start-line="127" selection-start-column="26" selection-end-line="127" selection-end-column="26" />
+        <state relative-caret-position="545">
+          <caret line="198" column="20" lean-forward="true" selection-start-line="198" selection-start-column="20" selection-end-line="198" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nhamogioi_chitiet.html">
+    <entry file="file://$PROJECT_DIR$/assets/css/modules/_common.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="323" column="49" lean-forward="false" selection-start-line="323" selection-start-column="49" selection-end-line="323" selection-end-column="49" />
-          <folding>
-            <element signature="e#4180#4186#0" expanded="true" />
-            <element signature="e#8540#8546#0" expanded="true" />
-            <element signature="e#9442#9448#0" expanded="true" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#6;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#div#6;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#1;n#div#6;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#0;n#div#1;n#div#6;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="484">
+          <caret line="569" column="0" lean-forward="true" selection-start-line="569" selection-start-column="0" selection-end-line="569" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dangtin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="290" column="66" lean-forward="false" selection-start-line="290" selection-start-column="66" selection-end-line="290" selection-end-column="66" />
+          <folding />
         </state>
       </provider>
     </entry>

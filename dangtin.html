@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="assets/gbnd_font/styles.css"/>
     <link rel="stylesheet" href="assets/css/site.css"/>
 </head>
-<body class="backgroundBody">
+<body class="backgroundBody post">
 <div class="over-lay"></div>
 <header>
     <nav class="nav-mobile">
@@ -79,39 +79,222 @@
         <div class="header-right"><a href=""><i class="icon-user"></i></a></div>
     </div>
 </header>
-<div class="padding30-15 text-center backgroundWhite">
-    <h3 class="fnAsapRegular fn24 colorRed text-upper mgTop30">đăng ký tài khoản</h3>
-    <form action="" class="input-form mgTop30" method="post">
-        <input type="text" name="fullname" placeholder="Tên đầy đủ  (*)">
-        <input type="text" name="username" placeholder="Tên đăng nhập (*)">
-        <input type="password" name="password" placeholder="Mật khẩu (*)">
-        <input type="password" name="re_password" placeholder="Xác nhận mật khẩu (*)">
-        <input type="email" name="email" placeholder="Email (*)">
-        <input type="tel" name="phone" placeholder="Điện thoại (*)">
-        <input type="text" name="address" placeholder="Địa chỉ (*)">
-        <div class="input-checkbox">
-            <input type="checkbox" class="verMiddle" name="is_agree"> &nbsp; <span class="text-upper">Tôi đã đọc và đồng ý các</span><span
-                class="colorRed text-upper"> điều kiện Thỏa thuận sử dụng</span>
+<div class="backgroundWhite">
+    <div class="container-type">
+        <input type="hidden" name="type" value="buy">
+        <div class="type-radio padding15 active">
+            BÁN
         </div>
-        <br>
-        <button class="fn19 fnAsapRegular colorWhite text-upper">đăng ký mới</button>
-    </form>
-
-    <h3 class="fnAsapRegular fn13 colorBlack text-upper mgTop100">Bạn đã có tài khoản? đăng nhập ngay!</h3>
-
-    <a href="login.html" class="text-upper fnAsapMedium fn13 colorYellow borderDashed borderRadius10 disInLineBlock padding20-72 mgTop15">đăng nhập</a>
-
-    <h3 class="fnAsapRegular fn13 colorBlack text-upper mgTop100">Đăng nhập bằng tài khoản</h3>
-
-    <div class="button-facebook padding20-72 mgTop15">
-        <a href="#" class="login-facebook text-upper colorWhite">Đăng nhập qua Facebook</a>
+        <div class="type-radio padding15">
+            CHO THUÊ
+        </div>
     </div>
-    <div class="button-google padding20-72 mgTop15">
-        <a href="#" class="login-google text-upper colorWhite">Đăng nhập qua Google +</a>
-    </div>
-
 </div>
-
+<form action="" class="input-form information" method="post">
+    <div class="backgroundPost">
+        <div class="padding15">
+            <h3 class="fn13 fnAsapMedium colorYellow text-upper text-left">thông tin cơ bản</h3>
+        </div>
+    </div>
+    <div class="backgroundBody">
+        <div class="padding30">
+            <label class="fn16 fnAsapRegular">Tiêu đề<span class="colorRed"> (*)</span></label>
+            <input type="text" name="title">
+            <select name="" class="select-type">
+                <option value="city">Dự án <span class="colorRed"> (*)</span></option>
+                <option value="0">Nam</option>
+                <option value="1">Nữ</option>
+            </select>
+            <select name="" class="select-type">
+                <option value="city">Danh mục <span class="colorRed"> (*)</span></option>
+                <option value="0">Nam</option>
+                <option value="1">Nữ</option>
+            </select>
+        </div>
+    </div>
+    <div class="backgroundPost">
+        <div class="padding15">
+            <h3 class="fn13 fnAsapMedium colorYellow text-upper text-left">Vị trí</h3>
+        </div>
+    </div>
+    <div class="backgroundBody">
+        <div class="padding30">
+            <select name="" class="select-type select-info">
+                <option value="type">Tỉnh thành (*)</option>
+                <option value="0">Nam</option>
+                <option value="1">Nữ</option>
+            </select>
+            <select name="" class="select-type select-info">
+                <option value="city">Quận huyện (*)</option>
+                <option value="0">Nam</option>
+                <option value="1">Nữ</option>
+            </select>
+            <select name="" class="select-type select-info">
+                <option value="province">Phường xã (*)</option>
+                <option value="0">Nam</option>
+                <option value="1">Nữ</option>
+            </select>
+            <select name="" class="select-type select-info">
+                <option value="city">Số nhà, tên đường</option>
+                <option value="0">Nam</option>
+                <option value="1">Nữ</option>
+            </select>
+            <!--google map-->
+            <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyD6K4NhsmZ4glQGmFX5XtlwNoxN0PzlUAM'></script>
+            <div id="map"></div>
+            <a href='https://mapsiframe.com/'>google maps anfahrt einbinden</a>
+            <script type='text/javascript'
+                    src='https://embedmaps.com/google-maps-authorization/script.js?id=28d89d571b5f4321aa6d076aba839bc35d2fff9f'></script>
+            <script type='text/javascript'>function init_map() {
+                var myOptions = {
+                    zoom: 12,
+                    center: new google.maps.LatLng(10.8142, 106.64380000000006),
+                    mapTypeId: google.maps.MapTypeId.ROADMAP,
+                    zoomControl: 0,
+                    fullscreenControl: 0
+                };
+                map = new google.maps.Map(document.getElementById('map'), myOptions);
+                marker = new google.maps.Marker({
+                    map: map,
+                    position: new google.maps.LatLng(10.8142, 106.64380000000006)
+                });
+                infowindow = new google.maps.InfoWindow({content: '<strong></strong><br><br> Ho Chi Minh City<br>'});
+                google.maps.event.addListener(marker, 'click', function () {
+                    infowindow.open(map, marker);
+                });
+                infowindow.open(map, marker);
+            }
+            google.maps.event.addDomListener(window, 'load', init_map);</script>
+            <!--google map-->
+            <input type="text" placeholder="Giá (*)">
+            <select name="" class="select-type select-info">
+                <option value="city">Đơn vị tính (*)</option>
+                <option value="0">Nam</option>
+                <option value="1">Nữ</option>
+            </select>
+            <input type="text" placeholder="Diện tích (*)">
+            <h3 class="fn16 fnAsapMedium colorRed text-upper text-left mgTop30 mgLeft15">Tổng giá tiền <span
+                    class="fnGothic fn24 mgLeft15">3,0 tỷ</span></h3>
+        </div>
+    </div>
+    <div class="backgroundPost">
+        <div class="padding15">
+            <h3 class="fn13 fnAsapMedium colorYellow text-upper text-left">thông tin mô tả</h3>
+        </div>
+        <div class="backgroundBody">
+            <div class="padding30">
+                <label class="fn16 fnAsapRegular mgTop30">Mô tả chi tiết <span class="colorRed"> (*)</span></label>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <p class="fn13 fnAsapRegular colorYellow2 text-left">Giới thiệu chung về bất động sản của bạn. Ví dụ:
+                    Khu nhà có vị trí thuận lợi: Gần công viên, gần trường học ... Tổng diện tích 52m2, đường đi ô tô
+                    vào tận cửa.
+                    Lưu ý: tin rao chỉ để mệnh giá tiền Việt Nam Đồng.</p>
+                <label class="fn16 fnAsapRegular mgTop30">Hình ảnh, video<span class="colorRed"> (*)</span></label>
+                <p class="fn14 italic colorRed fnAsapRegular text-left mgTop3">Tối đa 8 ảnh với tin thường và 16 với tin
+                    VIP. Mỗi ảnh tối đa 2</p>
+                <div class="mgTop30 flex justLeft">
+                    <div class="positionRelative">
+                        <img src="assets/images/avatar/avatar_01.png" alt=""
+                             class="width116px height116px mgRight15 borderRadius5">
+                        <i class="icon icon-delete colorRed delete-image"></i>
+                    </div>
+                    <div>
+                        <button class="borderRadius5 btn-upload colorBrown text-upper borderDashed">
+                            <i class="icon icon-add-circular-button fn26"></i>
+                            <br>
+                            <span class="mgTop3 disInLineBlock">tải ảnh</span>
+                        </button>
+                    </div>
+                    <p class="fn13 fnAsapRegular italic colorYellow2 mgTop15 text-left">Tin rao có ảnh sẽ được xem nhiều
+                        hơn gấp 10 lần và được nhiều người gọi gấp 5 lần so với tin rao không có ảnh. Hãy đăng ảnh để
+                        được giao dịch nhanh chóng!</p>
+                    <p class="fn13 fnAsapRegular italic colorYellow2 mgTop15 text-left">Đăng ảnh thật nhanh bằng cách
+                        kéo và thả ảnh vào khung. Thay đổi vị trí của ảnh bằng cách kéo ảnh vào vị trí mà bạn muốn!</p>
+                    <hr class="borderDashed colorYellow mgTop15 width100per">
+                    <p class="fn14 colorRed mgLeft15 mgTop15"><i
+                            class="icon icon-video-player fn26 verMiddle disInLineBlock mgTop10 mgRight15"></i> Nếu bạn
+                        có nhu cầu Upload video, hãy liên hệ với chúng tôi để được hỗ trợ</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="backgroundPost">
+        <div class="padding15">
+            <h3 class="fn13 fnAsapMedium colorYellow text-upper text-left">thông tin khác</h3>
+        </div>
+        <div class="backgroundBody">
+            <div class="padding30-20 width100per flex itemsCenter">
+                <div class="width50per padding5-10">
+                    <input type="text" placeholder="Mặt tiền (m)">
+                </div>
+                <div class="width50per padding5-10">
+                    <input type="text" placeholder="Đường vào (m)">
+                </div>
+                <div class="width50per padding5-10">
+                    <select name="" class="select-type">
+                        <option value="city">Hướng nhà</option>
+                        <option value="0">Nam</option>
+                        <option value="1">Nữ</option>
+                    </select>
+                </div>
+                <div class="width50per padding5-10">
+                    <select name="" class="select-type">
+                        <option value="city">Hướng ban công</option>
+                        <option value="0">Nam</option>
+                        <option value="1">Nữ</option>
+                    </select>
+                </div>
+                <div class="width50per padding5-10">
+                    <input type="text" placeholder="Số tầng">
+                </div>
+                <div class="width50per padding5-10">
+                    <input type="text" placeholder="Số phòng ngủ">
+                </div>
+                <div class="width50per padding5-10">
+                    <input type="text" placeholder="Số toilet">
+                </div>
+                <div class="width50per padding5-10">
+                    <input type="text" placeholder="Nội thất">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="backgroundPost">
+        <div class="padding15">
+            <h3 class="fn13 fnAsapMedium colorYellow text-upper text-left">Thông tin liên hệ</h3>
+        </div>
+        <div class="backgroundBody">
+            <div class="padding30">
+                <input type="text" placeholder="Tên liên hệ">
+                <input type="text" placeholder="Email">
+                <input type="text" placeholder="Điện thoại">
+                <input type="text" placeholder="Địa chỉ">
+            </div>
+        </div>
+    </div>
+    <div class="backgroundPost">
+        <div class="padding15">
+            <h3 class="fn13 fnAsapMedium colorYellow text-upper text-left">TLịch đăng tin</h3>
+        </div>
+        <div class="backgroundBody">
+            <div class="padding30">
+                <select name="" class="select-type">
+                    <option value="city">Loại tin  (*)</option>
+                    <option value="0">Nam</option>
+                    <option value="1">Nữ</option>
+                </select>
+                <div class="width50per padding5-10">
+                    <label class="fn16 fnAsapRegular">Ngày hiệu lực</label>
+                    <input type="text" placeholder="Số toilet">
+                </div>
+                <div class="width50per padding5-10">
+                    <label class="fn16 fnAsapRegular">Ngày hết hạn</label>
+                    <input type="text" placeholder="Số toilet">
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
 <footer>
     <div class="head-slider padding30-15">
         <h3 class="fn13 fnAsapRegular colorWhite"><i data-icon="k" class="icon"></i> &nbsp; Phiên bản Desktop</h3>
@@ -123,7 +306,9 @@
     </div>
     <hr>
     <div class="flex itemsCenter">
-        <h3 class="fn13 fnAsapRegular colorWhite padding30-15 verMiddle">All content © copyright 2016 Gia ban Nha dat. All rights reserve</h3>
+        <h3 class="fn13 fnAsapRegular colorWhite padding30-15 verMiddle">All content © copyright 2016 Gia ban Nha
+            dat.
+            All rights reserve</h3>
         <img class="verMiddle mgRight imgVerify" src="assets/images/homepage/verify_img.png" alt="Verify Image">
     </div>
 </footer>

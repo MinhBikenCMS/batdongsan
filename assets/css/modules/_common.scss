@@ -203,8 +203,16 @@ h3 {
   color: #cfa267;
 }
 
+.colorYellow2 {
+  color: #643f0e;
+}
+
 .colorBlack {
   color: #85817c;
+}
+
+.colorBlack2 {
+  color: #202020;
 }
 
 .colorBrown {
@@ -259,6 +267,11 @@ h3 {
 .backGroundFacebook {
   background-color: #4b76bd;
 }
+
+.backgroundPost {
+  background-color: #efefef;
+}
+
 
 .backGroundZalo {
   background-color: #1891e2;
@@ -382,7 +395,12 @@ h3 {
 }
 
 .mgRight15 {
-  margin-right: 0.9375rem;
+  margin-right: 15px !important;
+}
+
+
+.mgRight20 {
+  margin-right: 1.25rem !important;
 }
 
 .mgRight60 {
@@ -391,6 +409,10 @@ h3 {
 
 .mgLeft15 {
   margin-left: 0.9375rem;
+}
+
+.mgLeft5 {
+  margin-left: 0.3125rem;
 }
 
 .margin15-15-10 {
@@ -537,6 +559,15 @@ h3 {
 .padding10-10-10-0 {
   padding: 0.625rem 0.625rem 0.625rem 0;
 }
+
+.padding5-10 {
+  padding: 0.3125rem 0.625rem;
+}
+
+.padding30-20 {
+ padding: 1.875rem 1.25rem;
+}
+
 .flex {
   display: flex !important;
   flex-wrap: wrap;
@@ -568,6 +599,14 @@ h3 {
 
 .width186px {
   width: 11.5rem;
+}
+
+.width116px {
+  width: 7.25rem;
+}
+
+.height116px {
+  height: 7.25rem;
 }
 
 .width90px {
@@ -618,8 +657,12 @@ h3 {
   width: 42%;
 }
 
+.width48per {
+  width: 48% !important;
+}
+
 .width50per {
-  width: 50%;
+  width: 50% !important;
 }
 
 .width70per {
@@ -702,10 +745,26 @@ h3 {
   }
 }
 
+::placeholder {
+  color: #281c0c;
+}
+
+
 .input-form {
   width: 100%;
   text-align: center;
   input {
+    width: 80%;
+    display: inline-block;
+    outline: none;
+    background-color: #f0f0f0;
+    padding: 1.25rem;
+    font-size: 0.875rem;
+    font-family: "Asap-Regular", sans-serif;
+    margin: 0.3125rem 0;
+    border: 1px solid #d8d8d8;
+  }
+  textarea {
     width: 80%;
     display: inline-block;
     outline: none;
