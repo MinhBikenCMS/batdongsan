@@ -223,6 +223,9 @@ h3 {
 .backgroundWhite {
   background-color: white; }
 
+.backgroundTransparent {
+  background-color: transparent !important; }
+
 .backGroundMore {
   background-color: #e0d8ce; }
 
@@ -248,7 +251,7 @@ h3 {
   background-color: #1891e2; }
 
 .backGroundRed {
-  background-color: #ef5350; }
+  background-color: #ef5350 !important; }
 
 .backgroundBlack {
   background-color: #1a1514; }
@@ -277,6 +280,9 @@ h3 {
 .padding0-10 {
   padding: 0 0.625rem; }
 
+.padding0-20 {
+  padding: 0 1.25rem; }
+
 .padding10-30-30 {
   padding: 0.625rem 1.875rem 1.875rem; }
 
@@ -285,6 +291,9 @@ h3 {
 
 .padding20-30-10 {
   padding: 1.25rem 1.875rem 0.625rem; }
+
+.padding20-30-0-30 {
+  padding: 1.25rem 1.875rem 0 1.875rem; }
 
 .padding20-30-0 {
   padding: 1.25rem 1.875rem 0; }
@@ -2384,6 +2393,9 @@ footer {
 @media screen and (max-width: 559px) {
   .post select.mgRight20 {
     margin-right: 1rem !important; } }
+.post .input-form button.button-footer {
+  width: auto;
+  padding: 0.9375rem 1.25rem; }
 
 .delete-image {
   position: absolute;

@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79887c8c-079a-4013-9876-411092bb8223" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/homepage/icon/arrow_triangle.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/modules/_common.scss" afterPath="$PROJECT_DIR$/assets/css/modules/_common.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/modules/_homepage.scss" afterPath="$PROJECT_DIR$/assets/css/modules/_homepage.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/modules/_profile.scss" afterPath="$PROJECT_DIR$/assets/css/modules/_profile.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/site.css" afterPath="$PROJECT_DIR$/assets/css/site.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/site.css.map" afterPath="$PROJECT_DIR$/assets/css/site.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/change_password.html" afterPath="$PROJECT_DIR$/change_password.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dangtin.html" afterPath="$PROJECT_DIR$/dangtin.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profile_information.html" afterPath="$PROJECT_DIR$/profile_information.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,18 +24,18 @@
       <file leaf-file-name="_common.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/modules/_common.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="569" column="0" lean-forward="true" selection-start-line="569" selection-start-column="0" selection-end-line="569" selection-end-column="0" />
+            <state relative-caret-position="334">
+              <caret line="284" column="39" lean-forward="false" selection-start-line="284" selection-start-column="39" selection-end-line="284" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_profile.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_profile.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/modules/_profile.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="545">
-              <caret line="198" column="20" lean-forward="true" selection-start-line="198" selection-start-column="20" selection-end-line="198" selection-end-column="20" />
+              <caret line="203" column="30" lean-forward="false" selection-start-line="203" selection-start-column="30" selection-end-line="203" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -56,12 +51,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dangtin.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dangtin.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dangtin.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="290" column="66" lean-forward="false" selection-start-line="290" selection-start-column="66" selection-end-line="290" selection-end-column="66" />
-              <folding />
+            <state relative-caret-position="545">
+              <caret line="315" column="117" lean-forward="false" selection-start-line="315" selection-start-column="104" selection-end-line="315" selection-end-column="117" />
+              <folding>
+                <element signature="e#14872#14878#0" expanded="true" />
+                <element signature="e#15029#15035#0" expanded="true" />
+                <element signature="e#16315#16321#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,10 +77,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>dot</find>
-      <find>margin0-10</find>
-      <find>lock mgTop15 padding0-30</find>
-      <find>.block-right-inner</find>
       <find>.block .block-right</find>
       <find>fnAsapMedium mgTop15 text-upper colorBrown</find>
       <find>block-left</find>
@@ -93,7 +88,6 @@
       <find>red</find>
       <find>efefef</find>
       <find>backGround</find>
-      <find>backGroundW</find>
       <find>colorBlac</find>
       <find>text-upper colorBlack fnAsapRegular padding15 street-view active</find>
       <find>mgLeft15</find>
@@ -108,6 +102,11 @@
       <find>mgRight15</find>
       <find>padding10-0</find>
       <find>padding10-10</find>
+      <find>padding20-30</find>
+      <find>padding0-20</find>
+      <find>padding15-30</find>
+      <find>backGroundW</find>
+      <find>backGroundRed</find>
     </findStrings>
     <replaceStrings>
       <replace>fnAsapRegular</replace>
@@ -157,9 +156,9 @@
         <option value="$PROJECT_DIR$/change_password.html" />
         <option value="$PROJECT_DIR$/assets/css/modules/_homepage.scss" />
         <option value="$PROJECT_DIR$/profile_information.html" />
-        <option value="$PROJECT_DIR$/assets/css/modules/_profile.scss" />
         <option value="$PROJECT_DIR$/assets/css/modules/_common.scss" />
         <option value="$PROJECT_DIR$/dangtin.html" />
+        <option value="$PROJECT_DIR$/assets/css/modules/_profile.scss" />
       </list>
     </option>
   </component>
@@ -456,16 +455,16 @@
       <workItem from="1560504018724" duration="1165000" />
       <workItem from="1560506726139" duration="615000" />
       <workItem from="1560511256396" duration="7374000" />
-      <workItem from="1560611578911" duration="10451000" />
+      <workItem from="1560611578911" duration="14109000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="292284000" />
+    <option name="totallyTimeSpent" value="295942000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1023" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31196582" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -813,26 +812,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/modules/_profile.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="198" column="20" lean-forward="true" selection-start-line="198" selection-start-column="20" selection-end-line="198" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/modules/_common.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="569" column="0" lean-forward="true" selection-start-line="569" selection-start-column="0" selection-end-line="569" selection-end-column="0" />
+        <state relative-caret-position="334">
+          <caret line="284" column="39" lean-forward="false" selection-start-line="284" selection-start-column="39" selection-end-line="284" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dangtin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="290" column="66" lean-forward="false" selection-start-line="290" selection-start-column="66" selection-end-line="290" selection-end-column="66" />
+        <state relative-caret-position="545">
+          <caret line="315" column="117" lean-forward="false" selection-start-line="315" selection-start-column="104" selection-end-line="315" selection-end-column="117" />
+          <folding>
+            <element signature="e#14872#14878#0" expanded="true" />
+            <element signature="e#15029#15035#0" expanded="true" />
+            <element signature="e#16315#16321#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/modules/_profile.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="203" column="30" lean-forward="false" selection-start-line="203" selection-start-column="30" selection-end-line="203" selection-end-column="30" />
           <folding />
         </state>
       </provider>

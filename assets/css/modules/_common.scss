@@ -244,6 +244,10 @@ h3 {
   background-color: white;
 }
 
+.backgroundTransparent {
+  background-color: transparent !important;
+}
+
 .backGroundMore {
   background-color: #e0d8ce;
 }
@@ -278,7 +282,7 @@ h3 {
 }
 
 .backGroundRed {
-  background-color: #ef5350;
+  background-color: #ef5350 !important;
 }
 
 .backgroundBlack {
@@ -316,6 +320,10 @@ h3 {
   padding: 0 0.625rem;
 }
 
+.padding0-20 {
+  padding: 0 1.25rem;
+}
+
 .padding10-30-30 {
   padding: 0.625rem 1.875rem 1.875rem;
 }
@@ -327,6 +335,11 @@ h3 {
 .padding20-30-10 {
   padding: 1.25rem 1.875rem 0.625rem;
 }
+
+.padding20-30-0-30 {
+  padding: 1.25rem 1.875rem 0 1.875rem;
+}
+
 
 .padding20-30-0 {
   padding: 1.25rem 1.875rem 0;
