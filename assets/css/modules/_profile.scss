@@ -190,10 +190,6 @@
   .select-type {
     background: url('../images/homepage/icon/arrow.png') 95% no-repeat white;
   }
-
-  .select-type.select-info {
-    background: url('../images/homepage/icon/arrow_triangle.png') 97% no-repeat white;
-  }
   select.mgRight20 {
     @media screen and (max-width: 559px) {
       margin-right: 1rem !important;
@@ -205,6 +201,10 @@
   }
 }
 
+.select-type.select-info {
+  background: url('../images/homepage/icon/arrow_triangle.png') 97% no-repeat white;
+}
+
 .delete-image {
   position: absolute;
   right: 20px;
@@ -212,6 +212,74 @@
   background-color: white;
   padding: 5px 5px 0 5px;
 }
+
+.refesh-post {
+  .block .block-left {
+    width: 35%;
+  }
+  .block .block-right {
+    width: 65%;
+  }
+  .block .block-right p span:first-child {
+    float: inherit;
+    width: auto;
+  }
+  .refesh {
+    button {
+      width: auto;
+      @media screen and ( max-width: 552px ) {
+        &.padding20 {
+          padding: 0.75rem;
+        }
+        &.padding15-30 {
+          padding: 0.5rem  1rem;
+        }
+        &.fn19 {
+          font-size: 0.75rem;
+        }
+        &.fn16 {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}
+
+.gj-datepicker-md {
+  width: 80%;
+}
+#datepicker1, #datepicker2 {
+  width: 100%;
+  font-size: 1.3125rem;
+  font-family: "SFUTradeGothicBoldCondensedTwenty";
+}
+.gj-datepicker-md [role=right-icon] {
+  right: 12px;
+  top: calc(50% - 12px)  ;
+}
+.gj-picker {
+  font-size: 1rem;
+  font-family: "SFUTradeGothicBoldCondensedTwenty";
+}
+.gj-picker-md table tr td.selected.gj-cursor-pointer div {
+  color: #202020;
+  background: #eee;
+  border-radius: 3px;
+}
+
+.post-inner {
+  .gj-datepicker-md {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
 
 
 

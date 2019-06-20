@@ -237,11 +237,11 @@ h3 {
 }
 
 .backgroundBody {
-  background-color: #f7f8f9;
+  background-color: #f7f8f9 !important;
 }
 
 .backgroundWhite {
-  background-color: white;
+  background-color: white !important;
 }
 
 .backgroundTransparent {
@@ -305,11 +305,11 @@ h3 {
 }
 
 .padding20 {
-  padding: 1.25rem;
+  padding: 1.25rem !important;
 }
 
 .padding15 {
-  padding: 0.9375rem;
+  padding: 0.9375rem !important;
 }
 
 .padding10 {
@@ -339,7 +339,6 @@ h3 {
 .padding20-30-0-30 {
   padding: 1.25rem 1.875rem 0 1.875rem;
 }
-
 
 .padding20-30-0 {
   padding: 1.25rem 1.875rem 0;
@@ -461,7 +460,7 @@ h3 {
 }
 
 .padding15-30 {
-  padding: 0.9375rem 1.875rem;
+  padding: 0.9375rem 1.875rem !important;
 }
 
 .padding20-72 {
@@ -474,6 +473,10 @@ h3 {
 
 .mgBottom30 {
   margin-bottom: 1.875rem;
+}
+
+.mgBottom275 {
+  margin-bottom: 17.1875rem;
 }
 
 .mgTop3 {
@@ -554,8 +557,9 @@ h3 {
 }
 
 .padding10-15 {
-  padding: 0.625rem 0.9375rem;
+  padding: 0.625rem 0.9375rem !important;
 }
+
 
 .padding30-0 {
   padding: 1.875rem 0;

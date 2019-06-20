@@ -218,10 +218,10 @@ h3 {
   background-color: #eee; }
 
 .backgroundBody {
-  background-color: #f7f8f9; }
+  background-color: #f7f8f9 !important; }
 
 .backgroundWhite {
-  background-color: white; }
+  background-color: white !important; }
 
 .backgroundTransparent {
   background-color: transparent !important; }
@@ -269,10 +269,10 @@ h3 {
   padding: 1.125rem; }
 
 .padding20 {
-  padding: 1.25rem; }
+  padding: 1.25rem !important; }
 
 .padding15 {
-  padding: 0.9375rem; }
+  padding: 0.9375rem !important; }
 
 .padding10 {
   padding: 0.625rem; }
@@ -386,7 +386,7 @@ h3 {
   padding: 1.125rem 0 1.875rem; }
 
 .padding15-30 {
-  padding: 0.9375rem 1.875rem; }
+  padding: 0.9375rem 1.875rem !important; }
 
 .padding20-72 {
   padding: 1.25rem 4.5rem; }
@@ -396,6 +396,9 @@ h3 {
 
 .mgBottom30 {
   margin-bottom: 1.875rem; }
+
+.mgBottom275 {
+  margin-bottom: 17.1875rem; }
 
 .mgTop3 {
   margin-top: 0.25rem; }
@@ -455,7 +458,7 @@ h3 {
   padding: 0.9375rem 0; }
 
 .padding10-15 {
-  padding: 0.625rem 0.9375rem; }
+  padding: 0.625rem 0.9375rem !important; }
 
 .padding30-0 {
   padding: 1.875rem 0; }
@@ -2388,8 +2391,6 @@ footer {
   margin: 0; }
 .post .select-type {
   background: url("../images/homepage/icon/arrow.png") 95% no-repeat white; }
-.post .select-type.select-info {
-  background: url("../images/homepage/icon/arrow_triangle.png") 97% no-repeat white; }
 @media screen and (max-width: 559px) {
   .post select.mgRight20 {
     margin-right: 1rem !important; } }
@@ -2397,11 +2398,57 @@ footer {
   width: auto;
   padding: 0.9375rem 1.25rem; }
 
+.select-type.select-info {
+  background: url("../images/homepage/icon/arrow_triangle.png") 97% no-repeat white; }
+
 .delete-image {
   position: absolute;
   right: 20px;
   bottom: 10px;
   background-color: white;
   padding: 5px 5px 0 5px; }
+
+.refesh-post .block .block-left {
+  width: 35%; }
+.refesh-post .block .block-right {
+  width: 65%; }
+.refesh-post .block .block-right p span:first-child {
+  float: inherit;
+  width: auto; }
+.refesh-post .refesh button {
+  width: auto; }
+  @media screen and (max-width: 552px) {
+    .refesh-post .refesh button.padding20 {
+      padding: 0.75rem; }
+    .refesh-post .refesh button.padding15-30 {
+      padding: 0.5rem  1rem; }
+    .refesh-post .refesh button.fn19 {
+      font-size: 0.75rem; }
+    .refesh-post .refesh button.fn16 {
+      font-size: 1rem; } }
+
+.gj-datepicker-md {
+  width: 80%; }
+
+#datepicker1, #datepicker2 {
+  width: 100%;
+  font-size: 1.3125rem;
+  font-family: "SFUTradeGothicBoldCondensedTwenty"; }
+
+.gj-datepicker-md [role=right-icon] {
+  right: 12px;
+  top: calc(50% - 12px); }
+
+.gj-picker {
+  font-size: 1rem;
+  font-family: "SFUTradeGothicBoldCondensedTwenty"; }
+
+.gj-picker-md table tr td.selected.gj-cursor-pointer div {
+  color: #202020;
+  background: #eee;
+  border-radius: 3px; }
+
+.post-inner .gj-datepicker-md {
+  width: 100%; }
 
 /*# sourceMappingURL=site.css.map */
