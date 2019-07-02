@@ -316,6 +316,10 @@ h3 {
   padding: 0.625rem;
 }
 
+.padding0 {
+  padding: 0 !important;
+}
+
 .padding0-10 {
   padding: 0 0.625rem;
 }
@@ -627,8 +631,13 @@ h3 {
 }
 
 .width90px {
-  width: 5.625rem;
+  width: 5.625rem !important;
 }
+
+.width86px {
+  width: 86px !important;
+}
+
 
 .width64px {
   width: 4rem;
@@ -643,7 +652,7 @@ h3 {
 }
 
 .width20per {
-  width: 20%;
+  width: 20% !important;
 }
 
 .width21per {
@@ -651,7 +660,7 @@ h3 {
 }
 
 .width30per {
-  width: 30%;
+  width: 30% !important;
 }
 
 .width29per {
